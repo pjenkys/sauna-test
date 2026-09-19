@@ -1,0 +1,4783 @@
+[
+  {
+    "id": "saunaspot-dvorce",
+    "city_id": "praha",
+    "region_id": "cz-pha",
+    "country_id": "CZ",
+    "name": "Saunaspot Dvorce",
+    "slug": "saunaspot-dvorce",
+    "category": "public",
+    "short_description": "Ikonické saunové centrum přímo na břehu Vltavy v Podolí s přímým ochlazením v řece z dřevěného mola.",
+    "description": "Saunaspot Dvorce je oázou klidu v pražském Podolí přímo u břehu Vltavy. Nabízí unikátní kombinaci suchých finských saun s panoramatickým výhledem na řeku a plovoucím molem, ze kterého můžete po schůdcích vstoupit přímo do proudící chladné Vltavy. V areálu se nachází také venkovní ochlazovací bazének, ceremoniální sál, bylinková biosauna a útulný bar s posezením.",
+    "address_street": "Podolské nábřeží - Přístav 1",
+    "address_city": "Praha 4",
+    "address_zip": "147 00",
+    "latitude": 50.0531,
+    "longitude": 14.4172,
+    "phone": "+420 774 445 556",
+    "email": "info@saunaspot.cz",
+    "website_url": "https://www.saunaspot.cz",
+    "booking_url": "https://www.saunaspot.cz/rezervace",
+    "cover_image_url": "https://images.unsplash.com/photo-1712659604528-b179a3634560?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[\"https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80\", \"https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=800&q=80\"]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 1,
+    "has_natural_water": 1,
+    "has_ice_well": 0,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 1,
+    "has_whirlpool": 0,
+    "has_steam_bath": 0,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 1,
+    "rating_overall": 4.8,
+    "rating_cleanliness": 4.8,
+    "rating_heat_steam": 4.9,
+    "rating_cooling": 5,
+    "rating_staff_ceremonies": 4.7,
+    "rating_value": 4.6,
+    "review_count": 1,
+    "favorite_count": 28,
+    "is_promoted": 1,
+    "promoted_badge": "Doporučeno / Partner",
+    "promoted_tier": "featured",
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "free_time_limited",
+      "time_limit_minutes": 90,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 25,
+      "overtime_block_minutes": 15,
+      "included_zones": "Celý saunový areál včetně mola na Vltavě",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu bez omezení",
+      "accepted_card_types": "[\"multisport_standard\", \"multisport_student\"]",
+      "note": "90 minut zdarma na MultiSport. V ceně je zapůjčení jednoho prostěradla."
+    },
+    "policies": {
+      "access_type": "public_walkin",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "dedicated_hours",
+      "women_only_schedule_note": "Každé pondělí 09:00 - 12:00 vyhrazeno pro ženy",
+      "children_policy": "adults_only",
+      "children_min_age": 15,
+      "barrier_free_access": "partial",
+      "parking_policy": "free_onsite",
+      "parking_notes": "Parkování zdarma přímo před areálem v Podolském přístavu",
+      "refreshment_type": "sauna_bar_full",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "natural_water_river",
+        "temp": 8,
+        "desc": "Přímý vstup do Vltavy z plovoucího mola",
+        "featured": 1
+      },
+      {
+        "option_id": "outdoor_plunge_pool",
+        "temp": 9.5,
+        "desc": "Venkovní nerezový bazének s výhledem",
+        "featured": 1
+      },
+      {
+        "option_id": "bucket_shower",
+        "temp": 8,
+        "desc": "Polévací vědro s vltavskou chladnou vodou",
+        "featured": 0
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "finnish_dry",
+        "name": "Vltavská finská sauna",
+        "t_min": 90,
+        "t_max": 105,
+        "h_min": 10,
+        "h_max": 20,
+        "cap": 25,
+        "wood": "Severský smrk",
+        "desc": "Panoramatické okno na řeku Vltavu a Vyšehradskou skálu."
+      },
+      {
+        "sauna_type_id": "bio_herbal",
+        "name": "Bylinná biosauna",
+        "t_min": 55,
+        "t_max": 65,
+        "h_min": 45,
+        "h_max": 55,
+        "cap": 15,
+        "wood": "Osika",
+        "desc": "Příjemná teplota s odpařováním horského sena a levandule."
+      },
+      {
+        "sauna_type_id": "ceremonial_hall",
+        "name": "Ceremoniální dóm",
+        "t_min": 85,
+        "t_max": 95,
+        "h_min": 25,
+        "h_max": 40,
+        "cap": 40,
+        "wood": "Cedr",
+        "desc": "Prostor pro divadelní saunové rituály se světelnými efekty."
+      }
+    ],
+    "amenities": [
+      "outdoor_garden",
+      "relaxation_room_fireplace",
+      "whirlpool_outdoor"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "09:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": "09:00-12:00 dámské hodiny"
+      },
+      {
+        "day": 1,
+        "open": "09:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "09:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "09:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "09:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 90 minut",
+        "dur": 90,
+        "price": 320,
+        "stud": 270,
+        "sen": 270,
+        "is_def": 1,
+        "note": "Zahrnuje 1x prostěradlo"
+      },
+      {
+        "name": "Vstup 120 minut",
+        "dur": 120,
+        "price": 390,
+        "stud": 340,
+        "sen": 340,
+        "is_def": 0,
+        "note": "Doporučeno pro účast na ceremoniálu"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "rev_dvorce_1",
+        "user_id": "user_sauna_master_jakub",
+        "rating_overall": 5,
+        "rating_cleanliness": 5,
+        "rating_heat_steam": 5,
+        "rating_cooling": 5,
+        "rating_staff_ceremonies": 5,
+        "rating_value": 4,
+        "title": "Nejlepší ochlazení v Praze přímo v chladné Vltavě!",
+        "content": "Do Saunaspotu chodím už několik let. Skok do Vltavy po poctivém ceremoniálu v horní cedrové sauně nemá v Praze konkurenci. Voda má v zimě kolem 4-6 stupňů, v létě osvěží. Personál je skvělý, saunéři umí s ručníkem kouzlit. S MultiSportem je 90 minut naprosto ideální čas.",
+        "tips": "Přijďte v úterý kolem 16:00, než dorazí večerní špička. Parkování přímo u vrat.",
+        "recommended_time": "Všední dny 15:00 - 17:30",
+        "visit_date": "2026-09-02",
+        "is_verified": 1,
+        "helpful_votes": 34
+      }
+    ],
+    "ceremonies": [
+      {
+        "id": "cer_dvorce_vltava_ritual",
+        "title": "Vltavský večerní rituál s eukalyptem",
+        "category": "relaxing",
+        "description": "Zklidňující parní ráz s přírodními esencemi z eukalyptu a mentolu, zakončený společným ochlazením v řece.",
+        "ceremony_master": "Jakub Král",
+        "hall_name": "Ceremoniální dóm",
+        "day_of_week": 3,
+        "start_time": "18:00:00",
+        "end_time": "18:15:00",
+        "fee": 0,
+        "is_featured": 1
+      }
+    ]
+  },
+  {
+    "id": "infinit-maximus-brno",
+    "city_id": "brno",
+    "region_id": "cz-jhm",
+    "country_id": "CZ",
+    "name": "Infinit Maximus Brno",
+    "slug": "infinit-maximus-brno",
+    "category": "wellness_ceremonial",
+    "short_description": "Vlajková loď české saunové kultury u Brněnské přehrady s přírodním biotopovým jezírkem a venkovním saunovým světem.",
+    "description": "Wellness Infinit Maximus v Brně u přehrady je nejvyhlášenějším saunovým světem v České republice. V rozsáhlém venkovním areálu zasazeném do zalesněného údolí najdete unikátní saunový dóm na jezeře, vulkán saunu, vinnou saunu, bylinkovou lázeň i solné inhalace. Ochlazení nabízí přírodní biotopové jezírko s čistou vodou a venkovní bazénky.",
+    "address_street": "Hrázní 4a",
+    "address_city": "Brno-Kníničky",
+    "address_zip": "635 00",
+    "latitude": 49.2338,
+    "longitude": 16.5186,
+    "phone": "+420 546 211 411",
+    "email": "maximus@infinit.cz",
+    "website_url": "https://maximus.infinit.cz",
+    "booking_url": "https://maximus.infinit.cz/rezervace",
+    "cover_image_url": "https://images.unsplash.com/photo-1660735698223-23a4edefa264?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[\"https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=800&q=80\"]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 1,
+    "has_natural_water": 1,
+    "has_ice_well": 1,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 1,
+    "has_whirlpool": 1,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 1,
+    "rating_overall": 4.95,
+    "rating_cleanliness": 5,
+    "rating_heat_steam": 5,
+    "rating_cooling": 5,
+    "rating_staff_ceremonies": 4.95,
+    "rating_value": 4.8,
+    "review_count": 1,
+    "favorite_count": 94,
+    "is_promoted": 1,
+    "promoted_badge": "Doporučeno / Partner",
+    "promoted_tier": "premium",
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "entry_discount",
+      "time_limit_minutes": 120,
+      "discount_amount_czk": 120,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 30,
+      "overtime_block_minutes": 15,
+      "included_zones": "Kompletní vnitřní a venkovní termální a saunový svět",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu",
+      "accepted_card_types": "[\"multisport_standard\"]",
+      "note": "MultiSport karta poskytuje slevu 120 Kč ze vstupu na 120 minut nebo celodenního vstupu."
+    },
+    "policies": {
+      "access_type": "public_reservation_recommended",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "women_only_schedule_note": null,
+      "children_policy": "family_hours",
+      "children_min_age": 12,
+      "barrier_free_access": "full",
+      "parking_policy": "free_onsite",
+      "parking_notes": "Velké bezplatné hotelové parkoviště přímo u resortu",
+      "refreshment_type": "sauna_bar_full",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "natural_water_lake",
+        "temp": 11,
+        "desc": "Přírodní biotopové koupací jezírko s vodopádem",
+        "featured": 1
+      },
+      {
+        "option_id": "outdoor_plunge_pool",
+        "temp": 8,
+        "desc": "Venkovní nerezový ochlazovací bazének",
+        "featured": 1
+      },
+      {
+        "option_id": "ice_well",
+        "temp": 0,
+        "desc": "Ledová studna s ledovou tříští",
+        "featured": 1
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "ceremonial_hall",
+        "name": "Saunový dóm na jezeře",
+        "t_min": 85,
+        "t_max": 95,
+        "h_min": 25,
+        "h_max": 40,
+        "cap": 90,
+        "wood": "Severské dřevo",
+        "desc": "Velkolepý dóm pro divadelní ceremoniály mezinárodní úrovně."
+      },
+      {
+        "sauna_type_id": "rustic_banya",
+        "name": "Vinná sauna",
+        "t_min": 75,
+        "t_max": 85,
+        "h_min": 40,
+        "h_max": 50,
+        "cap": 25,
+        "wood": "Dubové sudy",
+        "desc": "Vůně moravského dřeva a bylinné výluhy."
+      },
+      {
+        "sauna_type_id": "bio_herbal",
+        "name": "Bylinná chýše",
+        "t_min": 55,
+        "t_max": 65,
+        "h_min": 50,
+        "h_max": 60,
+        "cap": 20,
+        "wood": "Olše",
+        "desc": "Lesní aroma a uvolňující atmosféra."
+      }
+    ],
+    "amenities": [
+      "outdoor_garden",
+      "relaxation_room_fireplace",
+      "whirlpool_outdoor",
+      "kneipp_path"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "10:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "10:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "10:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "10:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "10:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "09:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 120 minut (všední dny)",
+        "dur": 120,
+        "price": 540,
+        "stud": 480,
+        "sen": 480,
+        "is_def": 1,
+        "note": "Včetně prostěradla a osušky"
+      },
+      {
+        "name": "Celodenní vstup",
+        "dur": null,
+        "price": 890,
+        "stud": 810,
+        "sen": 810,
+        "is_def": 0,
+        "note": "Neomezený relax po celý den"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "rev_maximus_1",
+        "user_id": "user_eva_wellness",
+        "rating_overall": 5,
+        "rating_cleanliness": 5,
+        "rating_heat_steam": 5,
+        "rating_cooling": 5,
+        "rating_staff_ceremonies": 5,
+        "rating_value": 5,
+        "title": "Absolutní špička v ČR – saunový dóm a biotop nemají chybu!",
+        "content": "Když chci opravdu vypnout a zažít dokonalý wellness, jedu do Maxima. Jezírko je v létě i v zimě nádherně čisté. Saunové ceremoniály s hudbou a světly v Dómu jsou naprosto dechberoucí. Sleva s MultiSportem funguje hladce na pokladně.",
+        "tips": "Doporučuji zarezervovat vstup online o víkendu, bývá plno.",
+        "recommended_time": "Pondělí až čtvrtek podvečer",
+        "visit_date": "2026-08-28",
+        "is_verified": 1,
+        "helpful_votes": 48
+      }
+    ],
+    "ceremonies": [
+      {
+        "id": "cer_maximus_show_night",
+        "title": "Divadelní ceremoniál 'Noc na jezeře'",
+        "category": "dynamic_show",
+        "description": "Dynamické mávání vlajkami a ručníky za doprovodu epické filmové hudby v podání mistra ČR v saunových ceremoniálech.",
+        "ceremony_master": "Lukáš Polák",
+        "hall_name": "Saunový dóm na jezeře",
+        "day_of_week": 4,
+        "start_time": "19:00:00",
+        "end_time": "19:18:00",
+        "fee": 0,
+        "is_featured": 1
+      }
+    ]
+  },
+  {
+    "id": "infinit-step-praha",
+    "city_id": "praha",
+    "region_id": "cz-pha",
+    "country_id": "CZ",
+    "name": "Infinit Step Vysočany",
+    "slug": "infinit-step-praha",
+    "category": "wellness_ceremonial",
+    "short_description": "Velký saunový svět v Praze 9 s venkovní terasou, ceremoniálním sálem pro 70 osob a krbovou odpočívárnou.",
+    "description": "Infinit Step nabízí rozlehlý saunový svět s venkovní terasou pod širým nebem. K dispozici je ceremoniální finská sauna, bylinková biosauna s medovými rituály, tichá odpočívárna s praskajícím krbem, ledová studna a venkovní bazének.",
+    "address_street": "Malletova 1141",
+    "address_city": "Praha 9",
+    "address_zip": "190 00",
+    "latitude": 50.0984,
+    "longitude": 14.4842,
+    "phone": "+420 296 786 350",
+    "email": "step@infinit.cz",
+    "website_url": "https://step.infinit.cz",
+    "booking_url": "https://step.infinit.cz/rezervace",
+    "cover_image_url": "https://images.unsplash.com/photo-1692985159902-50c672483c31?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[\"https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80\"]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 1,
+    "has_natural_water": 0,
+    "has_ice_well": 1,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 1,
+    "has_whirlpool": 1,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 1,
+    "rating_overall": 4.7,
+    "rating_cleanliness": 4.8,
+    "rating_heat_steam": 4.8,
+    "rating_cooling": 4.6,
+    "rating_staff_ceremonies": 4.9,
+    "rating_value": 4.4,
+    "review_count": 0,
+    "favorite_count": 45,
+    "is_promoted": 1,
+    "promoted_badge": "Doporučeno / Partner",
+    "promoted_tier": "featured",
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "entry_discount",
+      "time_limit_minutes": 120,
+      "discount_amount_czk": 100,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 25,
+      "overtime_block_minutes": 15,
+      "included_zones": "Saunový svět Step včetně ceremoniálů",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu",
+      "accepted_card_types": "[\"multisport_standard\"]",
+      "note": "Sleva 100 Kč na vstup do saunového světa na 120 minut."
+    },
+    "policies": {
+      "access_type": "public_walkin",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "children_policy": "adults_only",
+      "children_min_age": 15,
+      "barrier_free_access": "full",
+      "parking_policy": "free_onsite",
+      "parking_notes": "Bezplatné parkování u sportovního areálu Step",
+      "refreshment_type": "sauna_bar_full",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "indoor_plunge_pool",
+        "temp": 10,
+        "desc": "Vnitřní ochlazovací bazén",
+        "featured": 1
+      },
+      {
+        "option_id": "outdoor_plunge_pool",
+        "temp": 8.5,
+        "desc": "Venkovní bazén na terase",
+        "featured": 1
+      },
+      {
+        "option_id": "ice_well",
+        "temp": 0,
+        "desc": "Ledová studna",
+        "featured": 0
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "ceremonial_hall",
+        "name": "Hlavní ceremoniální sál",
+        "t_min": 85,
+        "t_max": 95,
+        "h_min": 25,
+        "h_max": 40,
+        "cap": 70,
+        "wood": "Cedr",
+        "desc": "Ozvučená sauna pro rituály."
+      },
+      {
+        "sauna_type_id": "bio_herbal",
+        "name": "Bylinková bio sauna",
+        "t_min": 55,
+        "t_max": 65,
+        "h_min": 45,
+        "h_max": 55,
+        "cap": 20,
+        "wood": "Smrk",
+        "desc": "Bylinné aroma."
+      }
+    ],
+    "amenities": [
+      "outdoor_garden",
+      "relaxation_room_fireplace",
+      "whirlpool_indoor"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "09:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "09:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "09:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "09:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "09:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 120 minut",
+        "dur": 120,
+        "price": 490,
+        "stud": 430,
+        "sen": 430,
+        "is_def": 1,
+        "note": "Prostěradlo v ceně"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "saunia-westfield-chodov",
+    "city_id": "praha",
+    "region_id": "cz-pha",
+    "country_id": "CZ",
+    "name": "Saunia Westfield Chodov",
+    "slug": "saunia-westfield-chodov",
+    "category": "public",
+    "short_description": "Moderní saunový svět v OC Westfield Chodov se 6 typy saun, parní lázní a 120 min na MultiSport zdarma.",
+    "description": "Pobočka sítě Saunia v obchodním centru Westfield Chodov nabízí moderní městský saunový svět. Zahrnuje velkou finskou saunu s denními ceremoniály, bylinkovou saunu, solnou inhalaci, parní nárazovou lázeň a ochlazovací bazének s ledovou studnou.",
+    "address_street": "Roztylská 2321/19",
+    "address_city": "Praha 4",
+    "address_zip": "148 00",
+    "latitude": 50.0315,
+    "longitude": 14.4912,
+    "phone": "+420 226 211 211",
+    "email": "chodov@saunia.cz",
+    "website_url": "https://www.saunia.cz/pobocky/chodov",
+    "booking_url": null,
+    "cover_image_url": "https://images.unsplash.com/photo-1583416750470-965b2707b355?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 0,
+    "has_natural_water": 0,
+    "has_ice_well": 1,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 1,
+    "has_whirlpool": 0,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 0,
+    "rating_overall": 4.5,
+    "rating_cleanliness": 4.6,
+    "rating_heat_steam": 4.6,
+    "rating_cooling": 4.5,
+    "rating_staff_ceremonies": 4.4,
+    "rating_value": 4.7,
+    "review_count": 0,
+    "favorite_count": 31,
+    "is_promoted": 0,
+    "promoted_badge": null,
+    "promoted_tier": null,
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "free_time_limited",
+      "time_limit_minutes": 120,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 30,
+      "overtime_block_minutes": 15,
+      "included_zones": "Kompletní saunový svět",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu",
+      "accepted_card_types": "[\"multisport_standard\", \"multisport_student\"]",
+      "note": "120 minut zdarma na MultiSport. Prostěradlo a osuška v ceně."
+    },
+    "policies": {
+      "access_type": "public_walkin",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "children_policy": "adults_only",
+      "children_min_age": 15,
+      "barrier_free_access": "full",
+      "parking_policy": "paid_onsite",
+      "parking_notes": "3 hodiny parkování v OC Chodov zdarma, poté dle tarifu OC",
+      "refreshment_type": "sauna_bar_full",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "indoor_plunge_pool",
+        "temp": 9,
+        "desc": "Nerezový bazének",
+        "featured": 1
+      },
+      {
+        "option_id": "ice_well",
+        "temp": 0,
+        "desc": "Ledová tříšť",
+        "featured": 1
+      },
+      {
+        "option_id": "bucket_shower",
+        "temp": 9,
+        "desc": "Vědro odvahy",
+        "featured": 0
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "finnish_dry",
+        "name": "Finská sauna",
+        "t_min": 90,
+        "t_max": 100,
+        "h_min": 10,
+        "h_max": 20,
+        "cap": 35,
+        "wood": "Smrk",
+        "desc": "Suché intenzivní teplo."
+      },
+      {
+        "sauna_type_id": "salt_sauna",
+        "name": "Solná sauna",
+        "t_min": 50,
+        "t_max": 60,
+        "h_min": 35,
+        "h_max": 45,
+        "cap": 20,
+        "wood": "Olše",
+        "desc": "Solné cihly a ionizace vzduchu."
+      }
+    ],
+    "amenities": [
+      "relaxation_room_silent",
+      "heated_loungers"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Základní vstup 120 minut",
+        "dur": 120,
+        "price": 415,
+        "stud": 365,
+        "sen": 365,
+        "is_def": 1,
+        "note": "Prostěradlo v ceně"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "lazne-na-lodi-praha",
+    "city_id": "praha",
+    "region_id": "cz-pha",
+    "country_id": "CZ",
+    "name": "Lázně na lodi (Kayak Beach Bar)",
+    "slug": "lazne-na-lodi-praha",
+    "category": "public",
+    "short_description": "Unikátní plovoucí finská sauna přímo na náplavce Rašínova nábřeží s koupáním ve Vltavě.",
+    "description": "Zážitková sauna situovaná na lodi ukotvené u pražské náplavky. Nabízí prosklenou potní místnost s přímým pohledem na řeku a Vyšehrad a po saunování můžete skočit do vltavské vody po lodním žebříku.",
+    "address_street": "Rašínovo nábřeží - Náplavka",
+    "address_city": "Praha 2",
+    "address_zip": "120 00",
+    "latitude": 50.0718,
+    "longitude": 14.4145,
+    "phone": "+420 725 333 888",
+    "email": "sauna@laznenalodi.cz",
+    "website_url": "https://www.laznenalodi.cz",
+    "booking_url": "https://www.laznenalodi.cz/rezervace",
+    "cover_image_url": "https://images.unsplash.com/photo-1713270176378-45fbf4a27099?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 0,
+    "has_outdoor_cooling": 1,
+    "has_natural_water": 1,
+    "has_ice_well": 0,
+    "has_bucket_shower": 0,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 0,
+    "has_whirlpool": 0,
+    "has_steam_bath": 0,
+    "has_herbal_sauna": 0,
+    "has_private_rental": 1,
+    "rating_overall": 4.6,
+    "rating_cleanliness": 4.5,
+    "rating_heat_steam": 4.7,
+    "rating_cooling": 5,
+    "rating_staff_ceremonies": 4.3,
+    "rating_value": 4.4,
+    "review_count": 0,
+    "favorite_count": 19,
+    "is_promoted": 0,
+    "promoted_badge": null,
+    "promoted_tier": null,
+    "status": "active",
+    "multisport": {
+      "is_accepted": 0,
+      "benefit_type": "not_accepted",
+      "time_limit_minutes": null,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": null,
+      "overtime_block_minutes": null,
+      "included_zones": "MultiSport není akceptován",
+      "towel_sheet_service_included": 0,
+      "valid_days": "all_week",
+      "valid_hours_description": "Neakceptuje",
+      "accepted_card_types": "[]",
+      "note": "Nezávislý zážitkový koncept, platba pouze v hotovosti nebo kartou."
+    },
+    "policies": {
+      "access_type": "public_reservation_recommended",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "children_policy": "adults_only",
+      "children_min_age": 16,
+      "barrier_free_access": "no",
+      "parking_policy": "street_public",
+      "parking_notes": "Parkování v modrých zónách na Rašínově nábřeží",
+      "refreshment_type": "sauna_bar_full",
+      "towels_and_sheets": "rental_fee"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "natural_water_river",
+        "temp": 7.5,
+        "desc": "Koupání ve Vltavě z paluby lodi",
+        "featured": 1
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "finnish_dry",
+        "name": "Plovoucí finská sauna",
+        "t_min": 85,
+        "t_max": 95,
+        "h_min": 15,
+        "h_max": 25,
+        "cap": 14,
+        "wood": "Modřín",
+        "desc": "Prosklená stěna přímo nad hladinou řeky."
+      }
+    ],
+    "amenities": [
+      "outdoor_garden"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "15:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "15:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "15:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "15:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "15:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "12:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "12:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 90 minut",
+        "dur": 90,
+        "price": 290,
+        "stud": 250,
+        "sen": 250,
+        "is_def": 1,
+        "note": "Zapůjčení prostěradla za 50 Kč"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "aquapalace-praha-cestlice",
+    "city_id": "cestlice",
+    "region_id": "cz-stc",
+    "country_id": "CZ",
+    "name": "Aquapalace Praha – Saunový svět",
+    "slug": "aquapalace-praha-cestlice",
+    "category": "wellness_ceremonial",
+    "short_description": "Největší saunový komplex v ČR s 18 různými prohřívárnami, Kelo saunou a venkovním atriem.",
+    "description": "Saunový svět v Aquapalace Čestlice je rozdělen na římské lázně, finské sauny a venkovní saunovou zahradu. Můžete zde vyzkoušet tradiční Kelo saunu ze severského dřeva, ruskou baňu i sněhovou komoru.",
+    "address_street": "Pražská 138",
+    "address_city": "Čestlice",
+    "address_zip": "251 01",
+    "latitude": 50.0075,
+    "longitude": 14.5714,
+    "phone": "+420 290 143 700",
+    "email": "info@aquapalace.cz",
+    "website_url": "https://www.aquapalace.cz",
+    "booking_url": "https://www.aquapalace.cz/vstupenky",
+    "cover_image_url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 1,
+    "has_natural_water": 0,
+    "has_ice_well": 1,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 1,
+    "has_whirlpool": 1,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 1,
+    "rating_overall": 4.65,
+    "rating_cleanliness": 4.7,
+    "rating_heat_steam": 4.8,
+    "rating_cooling": 4.7,
+    "rating_staff_ceremonies": 4.8,
+    "rating_value": 4.2,
+    "review_count": 0,
+    "favorite_count": 52,
+    "is_promoted": 0,
+    "promoted_badge": null,
+    "promoted_tier": null,
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "surcharge_entry",
+      "time_limit_minutes": 120,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": 250,
+      "overtime_surcharge_per_block_czk": 40,
+      "overtime_block_minutes": 15,
+      "included_zones": "Kompletní Saunový svět (vnitřní i venkovní) + Vodní svět",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu s doplatkem",
+      "accepted_card_types": "[\"multisport_standard\"]",
+      "note": "K MultiSport kartě je nutný doplatek 250 Kč za 120 minut vstupu do Saunového světa."
+    },
+    "policies": {
+      "access_type": "public_walkin",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "children_policy": "children_welcome",
+      "children_min_age": 3,
+      "barrier_free_access": "full",
+      "parking_policy": "paid_onsite",
+      "parking_notes": "Parkovací dům přímo u aquaparku",
+      "refreshment_type": "sauna_bar_full",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "indoor_plunge_pool",
+        "temp": 10,
+        "desc": "Vnitřní bazénky",
+        "featured": 1
+      },
+      {
+        "option_id": "outdoor_plunge_pool",
+        "temp": 8,
+        "desc": "Venkovní bazén v atriu",
+        "featured": 1
+      },
+      {
+        "option_id": "snow_room",
+        "temp": -8,
+        "desc": "Sněhová komora",
+        "featured": 1
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "kelo_sauna",
+        "name": "Kelo srubová sauna",
+        "t_min": 85,
+        "t_max": 95,
+        "h_min": 15,
+        "h_max": 25,
+        "cap": 30,
+        "wood": "Kelo polární borovice",
+        "desc": "Unikátní vůně staletého polárního dřeva."
+      },
+      {
+        "sauna_type_id": "ceremonial_hall",
+        "name": "Vulkán ceremoniální sauna",
+        "t_min": 85,
+        "t_max": 95,
+        "h_min": 25,
+        "h_max": 40,
+        "cap": 60,
+        "wood": "Cedr",
+        "desc": "Speciální saunové show a aromaterapie."
+      }
+    ],
+    "amenities": [
+      "outdoor_garden",
+      "whirlpool_indoor",
+      "whirlpool_outdoor"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "10:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "10:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "10:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "10:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "10:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "09:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "09:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 120 minut",
+        "dur": 120,
+        "price": 640,
+        "stud": 550,
+        "sen": 550,
+        "is_def": 1,
+        "note": "Vstup do saun i bazénů"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "bazen-slovany-saunove-centrum",
+    "city_id": "plzen",
+    "region_id": "cz-plk",
+    "country_id": "CZ",
+    "name": "Bazén Slovany – Saunové centrum",
+    "slug": "bazen-slovany-saunove-centrum",
+    "category": "public",
+    "short_description": "Největší veřejné saunové centrum v Plzni se střešním venkovním bazénkem a 90 min na MultiSport zdarma.",
+    "description": "Saunové centrum u bazénu na Slovanech v Plzni nabízí skvělé podmínky pro kondiční i relaxační saunování. Zahrnuje dvě suché finské sauny vyhřáté na 95 a 105 °C, prostornou parní lázeň s eukalyptem a střešní terasu s venkovním ochlazovacím bazénem a lehátky.",
+    "address_street": "Náměstí Generála Píky 42",
+    "address_city": "Plzeň",
+    "address_zip": "326 00",
+    "latitude": 49.7285,
+    "longitude": 13.3985,
+    "phone": "+420 378 038 220",
+    "email": "sauny@bazen-slovany.cz",
+    "website_url": "https://www.bazen-slovany.cz",
+    "booking_url": null,
+    "cover_image_url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 1,
+    "has_natural_water": 0,
+    "has_ice_well": 0,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 0,
+    "has_whirlpool": 0,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 0,
+    "has_private_rental": 0,
+    "rating_overall": 4.55,
+    "rating_cleanliness": 4.6,
+    "rating_heat_steam": 4.8,
+    "rating_cooling": 4.7,
+    "rating_staff_ceremonies": 4.2,
+    "rating_value": 4.9,
+    "review_count": 1,
+    "favorite_count": 22,
+    "is_promoted": 0,
+    "promoted_badge": null,
+    "promoted_tier": null,
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "free_time_limited",
+      "time_limit_minutes": 90,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 20,
+      "overtime_block_minutes": 15,
+      "included_zones": "Saunové centrum + 50m plavecký bazén",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu",
+      "accepted_card_types": "[\"multisport_standard\", \"multisport_student\"]",
+      "note": "90 minut zdarma na MultiSport. V ceně je i přístup do velkého plaveckého bazénu."
+    },
+    "policies": {
+      "access_type": "public_walkin",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "dedicated_days",
+      "women_only_schedule_note": "Každé pondělí 14:00 - 21:30 pouze pro ženy",
+      "children_policy": "children_welcome",
+      "children_min_age": 6,
+      "barrier_free_access": "full",
+      "parking_policy": "free_onsite",
+      "parking_notes": "Parkoviště zdarma přímo před plaveckým areálem",
+      "refreshment_type": "bistro_restaurant",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "outdoor_plunge_pool",
+        "temp": 8,
+        "desc": "Střešní ochlazovací bazének",
+        "featured": 1
+      },
+      {
+        "option_id": "indoor_plunge_pool",
+        "temp": 10,
+        "desc": "Vnitřní bazén",
+        "featured": 1
+      },
+      {
+        "option_id": "bucket_shower",
+        "temp": 8,
+        "desc": "Polévací vědro",
+        "featured": 0
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "finnish_dry",
+        "name": "Suchá finská sauna 105 °C",
+        "t_min": 100,
+        "t_max": 110,
+        "h_min": 10,
+        "h_max": 15,
+        "cap": 25,
+        "wood": "Severský smrk",
+        "desc": "Opravdové severské horko pro náročné saunéry."
+      },
+      {
+        "sauna_type_id": "steam_bath",
+        "name": "Parní solná lázeň",
+        "t_min": 44,
+        "t_max": 48,
+        "h_min": 100,
+        "h_max": 100,
+        "cap": 18,
+        "wood": "Keramická mozaika",
+        "desc": "Pára s inhalací eukalyptu."
+      }
+    ],
+    "amenities": [
+      "swimming_pool",
+      "outdoor_garden"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "14:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": "Dámský den"
+      },
+      {
+        "day": 1,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "09:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "09:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 90 minut",
+        "dur": 90,
+        "price": 240,
+        "stud": 190,
+        "sen": 190,
+        "is_def": 1,
+        "note": "Včetně bazénu"
+      }
+    ],
+    "reviews": [
+      {
+        "id": "rev_slovany_1",
+        "user_id": "user_tomas_plzen",
+        "rating_overall": 5,
+        "rating_cleanliness": 4,
+        "rating_heat_steam": 5,
+        "rating_cooling": 5,
+        "rating_staff_ceremonies": 4,
+        "rating_value": 5,
+        "title": "Nejlepší teplo v Plzni – finská 105 stupňů je bezkonkurenční!",
+        "content": "Kdo má rád opravdové horko a střešní venkovní ochlazení, ten si Slovany zamiluje. Bazének na střeše je v chladných měsících parádní. Navíc kombinace se zaplaváním v padesátce bazénu v ceně MultiSportu je top poměr cena/výkon v celém kraji.",
+        "tips": "Pozor na pondělí, to je vyhrazeno pouze pro dámy!",
+        "recommended_time": "Úterý nebo čtvrtek odpoledne",
+        "visit_date": "2026-09-08",
+        "is_verified": 1,
+        "helpful_votes": 21
+      }
+    ],
+    "ceremonies": []
+  },
+  {
+    "id": "sareza-vodni-svet-capkovna",
+    "city_id": "ostrava",
+    "region_id": "cz-msk",
+    "country_id": "CZ",
+    "name": "Sareza Vodní svět Čapkovna",
+    "slug": "sareza-vodni-svet-capkovna",
+    "category": "public",
+    "short_description": "Tradiční a oblíbené saunové centrum v srdci Ostravy s vnitřním i venkovním bazénkem.",
+    "description": "Vodní svět Čapkovna v Moravské Ostravě disponuje rozsáhlým saunovým zázemím. Zahrnuje suchou finskou saunu, bylinkovou saunu, parní lázeň a venkovní atrium s ochlazovacím bazénkem pod širým nebem.",
+    "address_street": "Sokolská třída 44/2590",
+    "address_city": "Ostrava",
+    "address_zip": "702 00",
+    "latitude": 49.8436,
+    "longitude": 18.2861,
+    "phone": "+420 596 112 004",
+    "email": "capkovna@sareza.cz",
+    "website_url": "https://www.sareza.cz/vodni-svet-capkovna",
+    "booking_url": null,
+    "cover_image_url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 1,
+    "has_natural_water": 0,
+    "has_ice_well": 1,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 0,
+    "has_whirlpool": 1,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 0,
+    "rating_overall": 4.6,
+    "rating_cleanliness": 4.7,
+    "rating_heat_steam": 4.7,
+    "rating_cooling": 4.6,
+    "rating_staff_ceremonies": 4.4,
+    "rating_value": 4.8,
+    "review_count": 0,
+    "favorite_count": 18,
+    "is_promoted": 0,
+    "promoted_badge": null,
+    "promoted_tier": null,
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "free_time_limited",
+      "time_limit_minutes": 60,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 20,
+      "overtime_block_minutes": 15,
+      "included_zones": "Saunové centrum Čapkovna",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu",
+      "accepted_card_types": "[\"multisport_standard\"]",
+      "note": "60 minut zdarma na MultiSport. Možnost doplatku při delším pobytu."
+    },
+    "policies": {
+      "access_type": "public_walkin",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "dedicated_days",
+      "women_only_schedule_note": "Středa dopoledne pro ženy",
+      "children_policy": "children_welcome",
+      "children_min_age": 6,
+      "barrier_free_access": "full",
+      "parking_policy": "paid_onsite",
+      "parking_notes": "Parkování před objektem",
+      "refreshment_type": "bistro_restaurant",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "indoor_plunge_pool",
+        "temp": 10,
+        "desc": "Vnitřní bazén",
+        "featured": 1
+      },
+      {
+        "option_id": "outdoor_plunge_pool",
+        "temp": 8,
+        "desc": "Venkovní bazén v atriu",
+        "featured": 1
+      },
+      {
+        "option_id": "ice_well",
+        "temp": 0,
+        "desc": "Ledová studna",
+        "featured": 0
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "finnish_dry",
+        "name": "Finská suchá sauna",
+        "t_min": 90,
+        "t_max": 100,
+        "h_min": 15,
+        "h_max": 20,
+        "cap": 25,
+        "wood": "Smrk",
+        "desc": "Klasické finské prohřátí."
+      },
+      {
+        "sauna_type_id": "bio_herbal",
+        "name": "Bylinková biosauna",
+        "t_min": 60,
+        "t_max": 65,
+        "h_min": 45,
+        "h_max": 55,
+        "cap": 15,
+        "wood": "Osika",
+        "desc": "Přírodní esence a vlídné teplo."
+      }
+    ],
+    "amenities": [
+      "outdoor_garden",
+      "whirlpool_indoor"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "09:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "09:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 60 minut",
+        "dur": 60,
+        "price": 190,
+        "stud": 160,
+        "sen": 160,
+        "is_def": 1,
+        "note": "Prostěradlo v ceně"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "centrum-babylon-saunovy-svet",
+    "city_id": "liberec",
+    "region_id": "cz-lbk",
+    "country_id": "CZ",
+    "name": "Centrum Babylon – Saunový svět",
+    "slug": "centrum-babylon-saunovy-svet",
+    "category": "wellness_ceremonial",
+    "short_description": "Rozsáhlý wellness v antickém stylu v Liberci se solnou jeskyní, parními lázněmi a ochlazením.",
+    "description": "Wellness centrum Babylon v Liberci je stylizováno do podoby antických římských lázní. Nabízí bylinkové inhalace, eukalyptovou páru, suchou finskou saunu, Kneippův chodník, vířivky a ledovou studnu.",
+    "address_street": "Nitranská 1",
+    "address_city": "Liberec",
+    "address_zip": "460 07",
+    "latitude": 50.7594,
+    "longitude": 15.0519,
+    "phone": "+420 485 249 202",
+    "email": "wellness@hotelbabylon.cz",
+    "website_url": "https://www.hotelbabylon.cz/wellness",
+    "booking_url": null,
+    "cover_image_url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 0,
+    "has_natural_water": 0,
+    "has_ice_well": 1,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 0,
+    "has_whirlpool": 1,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 1,
+    "rating_overall": 4.45,
+    "rating_cleanliness": 4.5,
+    "rating_heat_steam": 4.5,
+    "rating_cooling": 4.4,
+    "rating_staff_ceremonies": 4.3,
+    "rating_value": 4.5,
+    "review_count": 0,
+    "favorite_count": 14,
+    "is_promoted": 0,
+    "promoted_badge": null,
+    "promoted_tier": null,
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "entry_discount",
+      "time_limit_minutes": 120,
+      "discount_amount_czk": 100,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 25,
+      "overtime_block_minutes": 15,
+      "included_zones": "Kompletní Wellness centrum Babylon",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu",
+      "accepted_card_types": "[\"multisport_standard\"]",
+      "note": "Sleva 100 Kč z ceny vstupu s MultiSport kartou."
+    },
+    "policies": {
+      "access_type": "public_walkin",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "children_policy": "children_welcome",
+      "children_min_age": 10,
+      "barrier_free_access": "full",
+      "parking_policy": "paid_onsite",
+      "parking_notes": "Krytý parkovací dům Centra Babylon",
+      "refreshment_type": "sauna_bar_full",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "indoor_plunge_pool",
+        "temp": 10,
+        "desc": "Antický ochlazovací bazének",
+        "featured": 1
+      },
+      {
+        "option_id": "ice_well",
+        "temp": 0,
+        "desc": "Ledová studna",
+        "featured": 1
+      },
+      {
+        "option_id": "kneipp_path",
+        "temp": 12,
+        "desc": "Kneippovy oblázky",
+        "featured": 0
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "finnish_dry",
+        "name": "Finská sauna",
+        "t_min": 90,
+        "t_max": 100,
+        "h_min": 15,
+        "h_max": 20,
+        "cap": 25,
+        "wood": "Smrk",
+        "desc": "Klasické prohřátí."
+      },
+      {
+        "sauna_type_id": "steam_bath",
+        "name": "Eukalyptová parní lázeň",
+        "t_min": 45,
+        "t_max": 48,
+        "h_min": 100,
+        "h_max": 100,
+        "cap": 15,
+        "wood": "Mramor",
+        "desc": "Hustá pára nasycená eukalyptem."
+      }
+    ],
+    "amenities": [
+      "whirlpool_indoor",
+      "relaxation_room_silent",
+      "heated_loungers"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "10:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "10:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "10:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "10:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "10:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "10:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "10:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 120 minut",
+        "dur": 120,
+        "price": 380,
+        "stud": 320,
+        "sen": 320,
+        "is_def": 1,
+        "note": "Včetně prostěradla"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "aquapark-spindleruv-mlyn",
+    "city_id": "spindleruv-mlyn",
+    "region_id": "cz-hkk",
+    "country_id": "CZ",
+    "name": "Aqua Park Špindlerův Mlýn – Saunový svět",
+    "slug": "aquapark-spindleruv-mlyn",
+    "category": "hotel_mountain",
+    "short_description": "Horský saunový svět v Krkonoších u Medvědína s ochlazením v horském vzduchu a 90 min na MultiSport.",
+    "description": "Saunový svět v Aqua Parku Špindlerův Mlýn leží přímo naproti sjezdovkám Medvědína. Nabízí dvě suché finské sauny, solnou infrasaunu, parní lázeň a venkovní ochlazovací bazének s horskou pramenitou vodou. V zimě možnost přímého ochlazení ve sněhu.",
+    "address_street": "Špindlerův Mlýn 300",
+    "address_city": "Špindlerův Mlýn",
+    "address_zip": "543 51",
+    "latitude": 50.7328,
+    "longitude": 15.6124,
+    "phone": "+420 499 523 036",
+    "email": "aquapark@aquaparkspindl.cz",
+    "website_url": "https://www.aquaparkspindl.cz",
+    "booking_url": null,
+    "cover_image_url": "https://images.unsplash.com/photo-1604609165678-096d20fab1ad?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 1,
+    "has_natural_water": 0,
+    "has_ice_well": 0,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 0,
+    "has_whirlpool": 1,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 0,
+    "has_private_rental": 0,
+    "rating_overall": 4.65,
+    "rating_cleanliness": 4.7,
+    "rating_heat_steam": 4.8,
+    "rating_cooling": 4.9,
+    "rating_staff_ceremonies": 4.3,
+    "rating_value": 4.7,
+    "review_count": 0,
+    "favorite_count": 27,
+    "is_promoted": 1,
+    "promoted_badge": "Náš tip",
+    "promoted_tier": "basic",
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "free_time_limited",
+      "time_limit_minutes": 90,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 25,
+      "overtime_block_minutes": 15,
+      "included_zones": "Saunový svět + bazénová část",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu",
+      "accepted_card_types": "[\"multisport_standard\", \"multisport_student\"]",
+      "note": "90 minut zdarma na MultiSport po lyžování či horské túře."
+    },
+    "policies": {
+      "access_type": "public_walkin",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "children_policy": "children_welcome",
+      "children_min_age": 4,
+      "barrier_free_access": "full",
+      "parking_policy": "free_onsite",
+      "parking_notes": "Parkoviště zdarma pro návštěvníky areálu",
+      "refreshment_type": "bistro_restaurant",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "outdoor_plunge_pool",
+        "temp": 6.5,
+        "desc": "Venkovní bazének s pramenitou krkonošskou vodou",
+        "featured": 1
+      },
+      {
+        "option_id": "bucket_shower",
+        "temp": 6,
+        "desc": "Horská vědra odvahy",
+        "featured": 0
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "finnish_dry",
+        "name": "Krkonošská finská sauna",
+        "t_min": 95,
+        "t_max": 105,
+        "h_min": 10,
+        "h_max": 20,
+        "cap": 25,
+        "wood": "Horský smrk",
+        "desc": "Vůně pryskyřice a poctivých 100 stupňů."
+      },
+      {
+        "sauna_type_id": "salt_sauna",
+        "name": "Solná infrasauna",
+        "t_min": 45,
+        "t_max": 55,
+        "h_min": 20,
+        "h_max": 30,
+        "cap": 12,
+        "wood": "Lípa",
+        "desc": "Prohřátí unavených nohou po sjezdovce."
+      }
+    ],
+    "amenities": [
+      "outdoor_garden",
+      "whirlpool_indoor"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "13:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "13:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "13:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "13:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "13:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "11:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "11:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 90 minut",
+        "dur": 90,
+        "price": 350,
+        "stud": 290,
+        "sen": 290,
+        "is_def": 1,
+        "note": "Vstup do saunového světa"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "lesni-sauna-pec",
+    "city_id": "pec-pod-snezkou",
+    "region_id": "cz-hkk",
+    "country_id": "CZ",
+    "name": "Lesní roubená sauna Pec",
+    "slug": "lesni-sauna-pec",
+    "category": "hotel_mountain",
+    "short_description": "Autentická roubená finská sauna na dřevo u horského potoka v Peci pod Sněžkou.",
+    "description": "Pro milovníky ryzí přírody a tradičního severského saunování. Masivní roubená stavba vytápěná kamny na dřevo leží přímo u zurčícího horského potoka v Krkonoších. Ochlazení probíhá přímo v přírodní tůni s ledovou horskou vodou.",
+    "address_street": "Pec pod Sněžkou 195",
+    "address_city": "Pec pod Sněžkou",
+    "address_zip": "542 21",
+    "latitude": 50.6938,
+    "longitude": 15.7335,
+    "phone": "+420 739 999 111",
+    "email": "rezervace@lesnisauna.cz",
+    "website_url": "https://www.lesnisauna.cz",
+    "booking_url": "https://www.lesnisauna.cz/rezervace",
+    "cover_image_url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 0,
+    "has_outdoor_cooling": 1,
+    "has_natural_water": 1,
+    "has_ice_well": 0,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 0,
+    "has_ceremonial_hall": 0,
+    "has_whirlpool": 0,
+    "has_steam_bath": 0,
+    "has_herbal_sauna": 0,
+    "has_private_rental": 1,
+    "rating_overall": 4.9,
+    "rating_cleanliness": 4.9,
+    "rating_heat_steam": 5,
+    "rating_cooling": 5,
+    "rating_staff_ceremonies": 4.6,
+    "rating_value": 4.7,
+    "review_count": 0,
+    "favorite_count": 36,
+    "is_promoted": 0,
+    "promoted_badge": null,
+    "promoted_tier": null,
+    "status": "active",
+    "multisport": {
+      "is_accepted": 0,
+      "benefit_type": "not_accepted",
+      "time_limit_minutes": null,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": null,
+      "overtime_block_minutes": null,
+      "included_zones": "MultiSport není akceptován",
+      "towel_sheet_service_included": 0,
+      "valid_days": "all_week",
+      "valid_hours_description": "Neakceptuje",
+      "accepted_card_types": "[]",
+      "note": "Privátní a klubový koncept s omezenou kapacitou. Nutná rezervace předem."
+    },
+    "policies": {
+      "access_type": "strictly_private",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "children_policy": "adults_only",
+      "children_min_age": 15,
+      "barrier_free_access": "no",
+      "parking_policy": "free_onsite",
+      "parking_notes": "Parkoviště u lesní cesty pro hosty sauny",
+      "refreshment_type": "water_station_free",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "natural_water_river",
+        "temp": 5,
+        "desc": "Horská tůň s křišťálově čistou vodou",
+        "featured": 1
+      },
+      {
+        "option_id": "bucket_shower",
+        "temp": 5,
+        "desc": "Dřevěné vědro s pramenitou vodou",
+        "featured": 0
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "finnish_dry",
+        "name": "Roubená sauna na dřevo",
+        "t_min": 90,
+        "t_max": 105,
+        "h_min": 15,
+        "h_max": 30,
+        "cap": 10,
+        "wood": "Krkonošský smrk a modřín",
+        "desc": "Tradiční finská kamna IKI na bukové dřevo."
+      }
+    ],
+    "amenities": [
+      "outdoor_garden",
+      "relaxation_room_fireplace"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "14:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": "Na rezervaci"
+      },
+      {
+        "day": 1,
+        "open": "14:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": "Na rezervaci"
+      },
+      {
+        "day": 2,
+        "open": "14:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": "Na rezervaci"
+      },
+      {
+        "day": 3,
+        "open": "14:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": "Na rezervaci"
+      },
+      {
+        "day": 4,
+        "open": "14:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": "Na rezervaci"
+      },
+      {
+        "day": 5,
+        "open": "11:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": "Na rezervaci"
+      },
+      {
+        "day": 6,
+        "open": "11:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": "Na rezervaci"
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Privátní pronájem 120 minut (až 6 osob)",
+        "dur": 120,
+        "price": 1800,
+        "stud": null,
+        "sen": null,
+        "is_def": 1,
+        "note": "Včetně prostěradel, bylinného čaje a dřeva"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "omega-centrum-olomouc",
+    "city_id": "olomouc",
+    "region_id": "cz-olk",
+    "country_id": "CZ",
+    "name": "Omega centrum sportu a zdraví – Wellness",
+    "slug": "omega-centrum-olomouc",
+    "category": "wellness_ceremonial",
+    "short_description": "Prémiový saunový svět v Olomouci se střešní relaxační terasou a venkovním bazénkem.",
+    "description": "Wellness centrum Omega v Olomouci nabízí špičkové zázemí: finskou ceremoniální saunu s denním světlem, bylinkovou biosaunu, solný parní dóm, ledovou studnu a venkovní střešní terasu s nerezovým ochlazovacím bazénem a výhledem do zeleně.",
+    "address_street": "Legionářská 19",
+    "address_city": "Olomouc",
+    "address_zip": "779 00",
+    "latitude": 49.5991,
+    "longitude": 17.2435,
+    "phone": "+420 585 202 411",
+    "email": "wellness@omegasport.cz",
+    "website_url": "https://www.omegasport.cz/wellness",
+    "booking_url": null,
+    "cover_image_url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 1,
+    "has_natural_water": 0,
+    "has_ice_well": 1,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 1,
+    "has_whirlpool": 1,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 0,
+    "rating_overall": 4.75,
+    "rating_cleanliness": 4.8,
+    "rating_heat_steam": 4.8,
+    "rating_cooling": 4.8,
+    "rating_staff_ceremonies": 4.7,
+    "rating_value": 4.6,
+    "review_count": 0,
+    "favorite_count": 25,
+    "is_promoted": 1,
+    "promoted_badge": "Doporučeno / Partner",
+    "promoted_tier": "basic",
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "free_time_limited",
+      "time_limit_minutes": 90,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 25,
+      "overtime_block_minutes": 15,
+      "included_zones": "Kompletní wellness zóna",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu",
+      "accepted_card_types": "[\"multisport_standard\", \"multisport_student\"]",
+      "note": "90 minut zdarma na MultiSport. Prostěradlo v ceně."
+    },
+    "policies": {
+      "access_type": "public_walkin",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "children_policy": "adults_only",
+      "children_min_age": 15,
+      "barrier_free_access": "full",
+      "parking_policy": "free_onsite",
+      "parking_notes": "Parkování u sportovního centra Omega",
+      "refreshment_type": "sauna_bar_full",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "outdoor_plunge_pool",
+        "temp": 8,
+        "desc": "Venkovní střešní bazének",
+        "featured": 1
+      },
+      {
+        "option_id": "indoor_plunge_pool",
+        "temp": 9.5,
+        "desc": "Vnitřní bazén",
+        "featured": 0
+      },
+      {
+        "option_id": "ice_well",
+        "temp": 0,
+        "desc": "Ledová studna",
+        "featured": 0
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "ceremonial_hall",
+        "name": "Ceremoniální finská sauna",
+        "t_min": 90,
+        "t_max": 100,
+        "h_min": 20,
+        "h_max": 35,
+        "cap": 40,
+        "wood": "Světlý cedr",
+        "desc": "Pravidelné podvečerní saunové rituály."
+      },
+      {
+        "sauna_type_id": "bio_herbal",
+        "name": "Bylinná biosauna",
+        "t_min": 60,
+        "t_max": 65,
+        "h_min": 45,
+        "h_max": 55,
+        "cap": 15,
+        "wood": "Smrk",
+        "desc": "Aromaterapie s moravskými bylinami."
+      }
+    ],
+    "amenities": [
+      "outdoor_garden",
+      "whirlpool_indoor",
+      "relaxation_room_silent"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "09:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "09:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "09:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "09:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "09:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "09:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "09:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 90 minut",
+        "dur": 90,
+        "price": 340,
+        "stud": 290,
+        "sen": 290,
+        "is_def": 1,
+        "note": "Včetně prostěradla"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "sauna-central-praha",
+    "city_id": "praha",
+    "region_id": "cz-pha",
+    "country_id": "CZ",
+    "name": "Sauna Central Praha",
+    "slug": "sauna-central-praha",
+    "category": "public",
+    "short_description": "Moderní saunový klub v centru Prahy pár kroků od Václavského náměstí.",
+    "description": "Klidná podzemní oáza v centru Prahy ve Smečkách. Nabízí suchou finskou saunu (až 100 °C), bylinnou biosaunu, infrasaunu, parní lázeň a ochlazovací bazének s ledovou studnou.",
+    "address_street": "Ve Smečkách 8",
+    "address_city": "Praha 1",
+    "address_zip": "110 00",
+    "latitude": 50.0789,
+    "longitude": 14.4268,
+    "phone": "+420 222 211 555",
+    "email": "info@saunacentral.cz",
+    "website_url": "https://www.saunacentral.cz",
+    "booking_url": null,
+    "cover_image_url": "https://images.unsplash.com/photo-1739869481946-c054e37a55b1?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 0,
+    "has_natural_water": 0,
+    "has_ice_well": 1,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 0,
+    "has_whirlpool": 0,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 1,
+    "rating_overall": 4.6,
+    "rating_cleanliness": 4.7,
+    "rating_heat_steam": 4.8,
+    "rating_cooling": 4.6,
+    "rating_staff_ceremonies": 4.3,
+    "rating_value": 4.5,
+    "review_count": 0,
+    "favorite_count": 21,
+    "is_promoted": 0,
+    "promoted_badge": null,
+    "promoted_tier": null,
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "free_time_limited",
+      "time_limit_minutes": 90,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 25,
+      "overtime_block_minutes": 15,
+      "included_zones": "Kompletní saunové zóny",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu",
+      "accepted_card_types": "[\"multisport_standard\", \"multisport_student\"]",
+      "note": "90 minut zdarma na MultiSport. Prostěradlo v ceně."
+    },
+    "policies": {
+      "access_type": "public_walkin",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "children_policy": "adults_only",
+      "children_min_age": 15,
+      "barrier_free_access": "no",
+      "parking_policy": "street_public",
+      "parking_notes": "Modré zóny v Praze 1",
+      "refreshment_type": "sauna_bar_full",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "indoor_plunge_pool",
+        "temp": 9,
+        "desc": "Vnitřní bazén",
+        "featured": 1
+      },
+      {
+        "option_id": "ice_well",
+        "temp": 0,
+        "desc": "Ledová studna",
+        "featured": 1
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "finnish_dry",
+        "name": "Finská sauna 100 °C",
+        "t_min": 95,
+        "t_max": 105,
+        "h_min": 10,
+        "h_max": 20,
+        "cap": 18,
+        "wood": "Cedr",
+        "desc": "Intenzivní horko."
+      },
+      {
+        "sauna_type_id": "bio_herbal",
+        "name": "Bylinná biosauna",
+        "t_min": 55,
+        "t_max": 65,
+        "h_min": 45,
+        "h_max": 55,
+        "cap": 12,
+        "wood": "Osika",
+        "desc": "Příjemná relaxace."
+      }
+    ],
+    "amenities": [
+      "relaxation_room_silent",
+      "heated_loungers"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "11:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "11:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "11:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "11:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "11:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "11:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "11:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 90 minut",
+        "dur": 90,
+        "price": 310,
+        "stud": 270,
+        "sen": 270,
+        "is_def": 1,
+        "note": "Prostěradlo v ceně"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "4comfort-brno-obrany",
+    "city_id": "brno",
+    "region_id": "cz-jhm",
+    "country_id": "CZ",
+    "name": "4Comfort Brno Obřany",
+    "slug": "4comfort-brno-obrany",
+    "category": "wellness_ceremonial",
+    "short_description": "Oblíbené ceremoniální wellness centrum v Brně-Obřanech se 2 venkovními bazény a solnou jeskyní.",
+    "description": "Centrum 4Comfort v Obřanech je známé skvělými saunéry a ceremoniály. Disponuje venkovním atriem se dvěma ochlazovacími bazény, solnou saunou, lesní finskou saunou a privátními vířivkami.",
+    "address_street": "Soběšická 156",
+    "address_city": "Brno",
+    "address_zip": "614 00",
+    "latitude": 49.2305,
+    "longitude": 16.6433,
+    "phone": "+420 545 210 500",
+    "email": "recepce@4comfort.cz",
+    "website_url": "https://www.4comfort.cz",
+    "booking_url": "https://www.4comfort.cz/rezervace",
+    "cover_image_url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 1,
+    "has_natural_water": 0,
+    "has_ice_well": 1,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 1,
+    "has_whirlpool": 1,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 1,
+    "rating_overall": 4.85,
+    "rating_cleanliness": 4.8,
+    "rating_heat_steam": 4.9,
+    "rating_cooling": 4.9,
+    "rating_staff_ceremonies": 4.95,
+    "rating_value": 4.7,
+    "review_count": 0,
+    "favorite_count": 48,
+    "is_promoted": 1,
+    "promoted_badge": "Doporučeno / Partner",
+    "promoted_tier": "featured",
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "free_time_limited",
+      "time_limit_minutes": 90,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 25,
+      "overtime_block_minutes": 15,
+      "included_zones": "Saunový svět",
+      "towel_sheet_service_included": 1,
+      "valid_days": "weekdays_until_16",
+      "valid_hours_description": "Po–Pá do 16:00 zdarma, po 16:00 a o víkendech doplatek 50 Kč",
+      "accepted_card_types": "[\"multisport_standard\"]",
+      "note": "90 minut zdarma na MultiSport ve všední dny do 16:00."
+    },
+    "policies": {
+      "access_type": "public_walkin",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "children_policy": "adults_only",
+      "children_min_age": 14,
+      "barrier_free_access": "partial",
+      "parking_policy": "free_onsite",
+      "parking_notes": "Parkování u objektu zdarma",
+      "refreshment_type": "sauna_bar_full",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "outdoor_plunge_pool",
+        "temp": 8,
+        "desc": "Dva venkovní bazény v atriu",
+        "featured": 1
+      },
+      {
+        "option_id": "ice_well",
+        "temp": 0,
+        "desc": "Ledová tříšť",
+        "featured": 0
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "ceremonial_hall",
+        "name": "Rituální sauna",
+        "t_min": 85,
+        "t_max": 95,
+        "h_min": 25,
+        "h_max": 40,
+        "cap": 50,
+        "wood": "Severský smrk",
+        "desc": "Denní ceremoniály."
+      },
+      {
+        "sauna_type_id": "salt_sauna",
+        "name": "Solná sauna",
+        "t_min": 50,
+        "t_max": 60,
+        "h_min": 35,
+        "h_max": 45,
+        "cap": 15,
+        "wood": "Solné bloky",
+        "desc": "Léčivá mikroklima."
+      }
+    ],
+    "amenities": [
+      "outdoor_garden",
+      "whirlpool_outdoor",
+      "relaxation_room_silent"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "10:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "10:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "10:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "10:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "10:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "10:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "10:00:00",
+        "close": "22:30:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 90 minut",
+        "dur": 90,
+        "price": 380,
+        "stud": 320,
+        "sen": 320,
+        "is_def": 1,
+        "note": "Včetně prostěradla"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "saunia-olympia-brno",
+    "city_id": "brno",
+    "region_id": "cz-jhm",
+    "country_id": "CZ",
+    "name": "Saunia Olympia Brno",
+    "slug": "saunia-olympia-brno",
+    "category": "public",
+    "short_description": "Velká pobočka Saunia v nákupním centru Olympia Brno s prostorným ceremoniálním sálem.",
+    "description": "Moderní saunový svět v nákupním centru Olympia Brno. Nabízí 5 druhů saun, pravidelné ceremoniály vedené profesionálními saunéry, ochlazovací bazének, ledovou studnu a rozsáhlou relaxační zónu.",
+    "address_street": "U Dálnice 777",
+    "address_city": "Modřice",
+    "address_zip": "664 42",
+    "latitude": 49.1362,
+    "longitude": 16.6322,
+    "phone": "+420 530 500 500",
+    "email": "olympiabrno@saunia.cz",
+    "website_url": "https://www.saunia.cz/pobocky/olympia-brno",
+    "booking_url": null,
+    "cover_image_url": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 0,
+    "has_natural_water": 0,
+    "has_ice_well": 1,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 1,
+    "has_whirlpool": 0,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 0,
+    "rating_overall": 4.55,
+    "rating_cleanliness": 4.6,
+    "rating_heat_steam": 4.6,
+    "rating_cooling": 4.5,
+    "rating_staff_ceremonies": 4.5,
+    "rating_value": 4.7,
+    "review_count": 0,
+    "favorite_count": 29,
+    "is_promoted": 0,
+    "promoted_badge": null,
+    "promoted_tier": null,
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "free_time_limited",
+      "time_limit_minutes": 120,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 30,
+      "overtime_block_minutes": 15,
+      "included_zones": "Kompletní saunový svět",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu",
+      "accepted_card_types": "[\"multisport_standard\", \"multisport_student\"]",
+      "note": "120 minut zdarma na MultiSport. Prostěradlo i osuška v ceně."
+    },
+    "policies": {
+      "access_type": "public_walkin",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "children_policy": "adults_only",
+      "children_min_age": 15,
+      "barrier_free_access": "full",
+      "parking_policy": "free_onsite",
+      "parking_notes": "Velké bezplatné parkoviště nákupního centra Olympia",
+      "refreshment_type": "sauna_bar_full",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "indoor_plunge_pool",
+        "temp": 9,
+        "desc": "Nerezový bazén",
+        "featured": 1
+      },
+      {
+        "option_id": "ice_well",
+        "temp": 0,
+        "desc": "Ledová tříšť",
+        "featured": 0
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "ceremonial_hall",
+        "name": "Ceremoniální finská sauna",
+        "t_min": 90,
+        "t_max": 100,
+        "h_min": 15,
+        "h_max": 30,
+        "cap": 45,
+        "wood": "Smrk",
+        "desc": "Velkorysé sezení."
+      },
+      {
+        "sauna_type_id": "bio_herbal",
+        "name": "Bylinková sauna",
+        "t_min": 60,
+        "t_max": 65,
+        "h_min": 45,
+        "h_max": 55,
+        "cap": 18,
+        "wood": "Olše",
+        "desc": "Bylinné esence."
+      }
+    ],
+    "amenities": [
+      "relaxation_room_silent",
+      "heated_loungers"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 120 minut",
+        "dur": 120,
+        "price": 415,
+        "stud": 365,
+        "sen": 365,
+        "is_def": 1,
+        "note": "Prostěradlo v ceně"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "saunia-forum-nova-karolina",
+    "city_id": "ostrava",
+    "region_id": "cz-msk",
+    "country_id": "CZ",
+    "name": "Saunia Forum Nová Karolina",
+    "slug": "saunia-forum-nova-karolina",
+    "category": "public",
+    "short_description": "Největší saunový svět v Ostravě v OC Forum Nová Karolina se 120 min na MultiSport.",
+    "description": "Ostravská pobočka sítě Saunia se nachází v centru města v obchodním centru Forum Nová Karolina. Nabízí širokou škálu suchých i parních saun, velký ceremoniální sál a relaxační zóny s barem.",
+    "address_street": "Jantarová 3344/4",
+    "address_city": "Ostrava",
+    "address_zip": "702 00",
+    "latitude": 49.8315,
+    "longitude": 18.2872,
+    "phone": "+420 597 011 011",
+    "email": "karolina@saunia.cz",
+    "website_url": "https://www.saunia.cz/pobocky/forum-nova-karolina",
+    "booking_url": null,
+    "cover_image_url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 0,
+    "has_natural_water": 0,
+    "has_ice_well": 1,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 1,
+    "has_whirlpool": 0,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 0,
+    "rating_overall": 4.6,
+    "rating_cleanliness": 4.65,
+    "rating_heat_steam": 4.65,
+    "rating_cooling": 4.5,
+    "rating_staff_ceremonies": 4.6,
+    "rating_value": 4.75,
+    "review_count": 0,
+    "favorite_count": 27,
+    "is_promoted": 0,
+    "promoted_badge": null,
+    "promoted_tier": null,
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "free_time_limited",
+      "time_limit_minutes": 120,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 30,
+      "overtime_block_minutes": 15,
+      "included_zones": "Kompletní saunový svět",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu",
+      "accepted_card_types": "[\"multisport_standard\", \"multisport_student\"]",
+      "note": "120 minut zdarma na MultiSport. Včetně zapůjčení prostěradla a osušky."
+    },
+    "policies": {
+      "access_type": "public_walkin",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "children_policy": "adults_only",
+      "children_min_age": 15,
+      "barrier_free_access": "full",
+      "parking_policy": "paid_onsite",
+      "parking_notes": "Parkování v podzemních garážích OC Forum Nová Karolina (o víkendech zdarma)",
+      "refreshment_type": "sauna_bar_full",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "indoor_plunge_pool",
+        "temp": 9,
+        "desc": "Nerezový bazén",
+        "featured": 1
+      },
+      {
+        "option_id": "ice_well",
+        "temp": 0,
+        "desc": "Ledová tříšť",
+        "featured": 0
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "ceremonial_hall",
+        "name": "Ceremoniální finská sauna",
+        "t_min": 90,
+        "t_max": 100,
+        "h_min": 15,
+        "h_max": 30,
+        "cap": 45,
+        "wood": "Smrk",
+        "desc": "Prostorný sál pro rituály."
+      },
+      {
+        "sauna_type_id": "salt_sauna",
+        "name": "Solná sauna",
+        "t_min": 50,
+        "t_max": 60,
+        "h_min": 35,
+        "h_max": 45,
+        "cap": 18,
+        "wood": "Solné cihly",
+        "desc": "Inhalace minerálů."
+      }
+    ],
+    "amenities": [
+      "relaxation_room_silent",
+      "heated_loungers"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 120 minut",
+        "dur": 120,
+        "price": 415,
+        "stud": 365,
+        "sen": 365,
+        "is_def": 1,
+        "note": "Prostěradlo v ceně"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "aquacentrum-hradec-kralove",
+    "city_id": "hradec-kralove",
+    "region_id": "cz-hkk",
+    "country_id": "CZ",
+    "name": "Aquacentrum Hradec Králové – Saunový svět",
+    "slug": "aquacentrum-hradec-kralove",
+    "category": "public",
+    "short_description": "Městský saunový svět na Eliščině nábřeží v Hradci Králové s 90 min na MultiSport.",
+    "description": "Zrekonstruovaný saunový svět v městském aquacentru na břehu Labe. Zahrnuje suchou finskou saunu, bylinkovou lázeň, parní komoru, ochlazovací bazének a ledovou studnu.",
+    "address_street": "Eliščino nábřeží 842",
+    "address_city": "Hradec Králové",
+    "address_zip": "500 02",
+    "latitude": 50.2131,
+    "longitude": 15.8268,
+    "phone": "+420 495 402 700",
+    "email": "aquacentrum@snhk.cz",
+    "website_url": "https://www.snhk.cz",
+    "booking_url": null,
+    "cover_image_url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 0,
+    "has_natural_water": 0,
+    "has_ice_well": 1,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 0,
+    "has_whirlpool": 1,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 0,
+    "rating_overall": 4.5,
+    "rating_cleanliness": 4.6,
+    "rating_heat_steam": 4.6,
+    "rating_cooling": 4.5,
+    "rating_staff_ceremonies": 4.2,
+    "rating_value": 4.7,
+    "review_count": 0,
+    "favorite_count": 17,
+    "is_promoted": 0,
+    "promoted_badge": null,
+    "promoted_tier": null,
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "free_time_limited",
+      "time_limit_minutes": 90,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 20,
+      "overtime_block_minutes": 15,
+      "included_zones": "Saunový svět + bazén",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu",
+      "accepted_card_types": "[\"multisport_standard\"]",
+      "note": "90 minut zdarma na MultiSport. Včetně vstupu do plaveckého bazénu."
+    },
+    "policies": {
+      "access_type": "public_walkin",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "dedicated_days",
+      "women_only_schedule_note": "Úterý dopoledne vyhrazeno pro ženy",
+      "children_policy": "children_welcome",
+      "children_min_age": 6,
+      "barrier_free_access": "full",
+      "parking_policy": "paid_onsite",
+      "parking_notes": "Parkoviště u Aquacentra",
+      "refreshment_type": "bistro_restaurant",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "indoor_plunge_pool",
+        "temp": 10,
+        "desc": "Ochlazovací bazének",
+        "featured": 1
+      },
+      {
+        "option_id": "ice_well",
+        "temp": 0,
+        "desc": "Ledová tříšť",
+        "featured": 0
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "finnish_dry",
+        "name": "Finská sauna 95 °C",
+        "t_min": 90,
+        "t_max": 100,
+        "h_min": 15,
+        "h_max": 20,
+        "cap": 25,
+        "wood": "Smrk",
+        "desc": "Suché teplo."
+      },
+      {
+        "sauna_type_id": "bio_herbal",
+        "name": "Bylinná biosauna",
+        "t_min": 60,
+        "t_max": 65,
+        "h_min": 45,
+        "h_max": 55,
+        "cap": 15,
+        "wood": "Osika",
+        "desc": "Bylinné inhalace."
+      }
+    ],
+    "amenities": [
+      "swimming_pool",
+      "whirlpool_indoor"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "09:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "09:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 90 minut",
+        "dur": 90,
+        "price": 250,
+        "stud": 210,
+        "sen": 210,
+        "is_def": 1,
+        "note": "Včetně bazénu"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "saunovy-svet-ceske-budejovice",
+    "city_id": "ceske-budejovice",
+    "region_id": "cz-jhc",
+    "country_id": "CZ",
+    "name": "Saunový svět Plavecký stadion České Budějovice",
+    "slug": "saunovy-svet-ceske-budejovice",
+    "category": "public",
+    "short_description": "Nový saunový svět na Sokolském ostrově v Českých Budějovicích s venkovním atriem.",
+    "description": "Zrekonstruované saunové centrum přímo na malebném Sokolském ostrově obklopeném řekami Vltavou a Malší. Nabízí velkou finskou saunu, bio bylinkovou saunu, parní lázeň a venkovní ochlazovací dvůr.",
+    "address_street": "Sokolský ostrov 462/1",
+    "address_city": "České Budějovice",
+    "address_zip": "370 01",
+    "latitude": 48.9748,
+    "longitude": 14.4682,
+    "phone": "+420 386 352 214",
+    "email": "sauny@cbsport.cz",
+    "website_url": "https://www.cbsport.cz",
+    "booking_url": null,
+    "cover_image_url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 1,
+    "has_natural_water": 0,
+    "has_ice_well": 0,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 0,
+    "has_whirlpool": 0,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 0,
+    "rating_overall": 4.55,
+    "rating_cleanliness": 4.7,
+    "rating_heat_steam": 4.6,
+    "rating_cooling": 4.6,
+    "rating_staff_ceremonies": 4.3,
+    "rating_value": 4.7,
+    "review_count": 0,
+    "favorite_count": 19,
+    "is_promoted": 0,
+    "promoted_badge": null,
+    "promoted_tier": null,
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "free_time_limited",
+      "time_limit_minutes": 90,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 20,
+      "overtime_block_minutes": 15,
+      "included_zones": "Saunový svět + krytý bazén",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu",
+      "accepted_card_types": "[\"multisport_standard\", \"multisport_student\"]",
+      "note": "90 minut zdarma na MultiSport."
+    },
+    "policies": {
+      "access_type": "public_walkin",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "dedicated_days",
+      "women_only_schedule_note": "Pondělí vyhrazeno pro ženy",
+      "children_policy": "children_welcome",
+      "children_min_age": 6,
+      "barrier_free_access": "full",
+      "parking_policy": "paid_onsite",
+      "parking_notes": "Parkoviště na Sokolském ostrově",
+      "refreshment_type": "bistro_restaurant",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "indoor_plunge_pool",
+        "temp": 10,
+        "desc": "Vnitřní bazének",
+        "featured": 1
+      },
+      {
+        "option_id": "outdoor_plunge_pool",
+        "temp": 8,
+        "desc": "Venkovní bazének ve dvoře",
+        "featured": 1
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "finnish_dry",
+        "name": "Jihočeská finská sauna",
+        "t_min": 90,
+        "t_max": 100,
+        "h_min": 15,
+        "h_max": 20,
+        "cap": 30,
+        "wood": "Smrk",
+        "desc": "Prostorná finská sauna."
+      },
+      {
+        "sauna_type_id": "bio_herbal",
+        "name": "Bylinná biosauna",
+        "t_min": 60,
+        "t_max": 65,
+        "h_min": 45,
+        "h_max": 55,
+        "cap": 16,
+        "wood": "Osika",
+        "desc": "Bylinkové aroma."
+      }
+    ],
+    "amenities": [
+      "outdoor_garden",
+      "swimming_pool"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "12:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": "Dámský den"
+      },
+      {
+        "day": 1,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "09:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "09:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 90 minut",
+        "dur": 90,
+        "price": 260,
+        "stud": 220,
+        "sen": 220,
+        "is_def": 1,
+        "note": "Včetně bazénu"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "resort-svata-katerina",
+    "city_id": "pocatky",
+    "region_id": "cz-vys",
+    "country_id": "CZ",
+    "name": "Resort Svatá Kateřina – Ájurvédský & Saunový pavilon",
+    "slug": "resort-svata-katerina",
+    "category": "hotel_mountain",
+    "short_description": "Exkluzivní wellness resort na Vysočině uprostřed lesů s ochlazením v přírodním rybníčku.",
+    "description": "Resort Svatá Kateřina na Vysočině je vyhlášenou oázou ticha, čistého vzduchu a zdravého životního stylu bez aut. Saunový pavilon nabízí finskou saunu s výhledem do lesa, bylinkové lázně a koupání v čistém lesním rybníčku Kateřina.",
+    "address_street": "Svatá Kateřina 327",
+    "address_city": "Počátky",
+    "address_zip": "394 64",
+    "latitude": 49.2842,
+    "longitude": 15.2934,
+    "phone": "+420 565 456 801",
+    "email": "info@katerinaresort.cz",
+    "website_url": "https://www.katerinaresort.cz",
+    "booking_url": "https://www.katerinaresort.cz/rezervace",
+    "cover_image_url": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 1,
+    "has_natural_water": 1,
+    "has_ice_well": 0,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 0,
+    "has_whirlpool": 1,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 1,
+    "rating_overall": 4.9,
+    "rating_cleanliness": 4.95,
+    "rating_heat_steam": 4.9,
+    "rating_cooling": 5,
+    "rating_staff_ceremonies": 4.8,
+    "rating_value": 4.6,
+    "review_count": 0,
+    "favorite_count": 42,
+    "is_promoted": 1,
+    "promoted_badge": "Doporučeno / Partner",
+    "promoted_tier": "featured",
+    "status": "active",
+    "multisport": {
+      "is_accepted": 0,
+      "benefit_type": "not_accepted",
+      "time_limit_minutes": null,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": null,
+      "overtime_block_minutes": null,
+      "included_zones": "MultiSport není akceptován",
+      "towel_sheet_service_included": 0,
+      "valid_days": "all_week",
+      "valid_hours_description": "Neakceptuje",
+      "accepted_card_types": "[]",
+      "note": "Privátní resort zaměřený na klid a ájurvédu. Vjezd autem zakázán (odvoz zajištěn z parkoviště)."
+    },
+    "policies": {
+      "access_type": "hotel_guests_and_public",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "children_policy": "adults_only",
+      "children_min_age": 16,
+      "barrier_free_access": "full",
+      "parking_policy": "free_onsite",
+      "parking_notes": "Parkoviště v Počátkách s bezplatným kyvadlovým transferem do resortu",
+      "refreshment_type": "sauna_bar_full",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "natural_water_lake",
+        "temp": 9,
+        "desc": "Lesní rybníček Kateřina s molem",
+        "featured": 1
+      },
+      {
+        "option_id": "outdoor_plunge_pool",
+        "temp": 8,
+        "desc": "Venkovní nerezový bazének",
+        "featured": 1
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "finnish_dry",
+        "name": "Lesní panoramatická sauna",
+        "t_min": 90,
+        "t_max": 100,
+        "h_min": 10,
+        "h_max": 20,
+        "cap": 20,
+        "wood": "Alpská borovice",
+        "desc": "Výhled do lesního ticha."
+      },
+      {
+        "sauna_type_id": "bio_herbal",
+        "name": "Ájurvédská bylinná lázeň",
+        "t_min": 55,
+        "t_max": 65,
+        "h_min": 45,
+        "h_max": 55,
+        "cap": 12,
+        "wood": "Cedr",
+        "desc": "Vzácné bylinné esence."
+      }
+    ],
+    "amenities": [
+      "outdoor_garden",
+      "relaxation_room_fireplace",
+      "whirlpool_outdoor"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "09:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "09:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "09:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "09:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "09:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "09:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "09:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 120 minut (veřejnost)",
+        "dur": 120,
+        "price": 590,
+        "stud": null,
+        "sen": null,
+        "is_def": 1,
+        "note": "Včetně prostěradel, županu a čaje"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "saunia-teplice",
+    "city_id": "teplice",
+    "region_id": "cz-ulk",
+    "country_id": "CZ",
+    "name": "Saunia Galerie Teplice",
+    "slug": "saunia-teplice",
+    "category": "public",
+    "short_description": "Nejmodernější saunový svět v Ústeckém kraji v OC Galerie Teplice se 120 min na MultiSport.",
+    "description": "Pobočka sítě Saunia v historickém lázeňském městě Teplice v OC Galerie. Zahrnuje velkou finskou saunu s ceremoniály, bylinkovou saunu, parní lázeň a ochlazovací bazének s ledovou studnou.",
+    "address_street": "Náměstí Svobody 3316",
+    "address_city": "Teplice",
+    "address_zip": "415 01",
+    "latitude": 50.6405,
+    "longitude": 13.8248,
+    "phone": "+420 417 500 500",
+    "email": "teplice@saunia.cz",
+    "website_url": "https://www.saunia.cz/pobocky/teplice",
+    "booking_url": null,
+    "cover_image_url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 0,
+    "has_natural_water": 0,
+    "has_ice_well": 1,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 1,
+    "has_whirlpool": 0,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 0,
+    "rating_overall": 4.55,
+    "rating_cleanliness": 4.6,
+    "rating_heat_steam": 4.6,
+    "rating_cooling": 4.5,
+    "rating_staff_ceremonies": 4.5,
+    "rating_value": 4.7,
+    "review_count": 0,
+    "favorite_count": 16,
+    "is_promoted": 0,
+    "promoted_badge": null,
+    "promoted_tier": null,
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "free_time_limited",
+      "time_limit_minutes": 120,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 30,
+      "overtime_block_minutes": 15,
+      "included_zones": "Kompletní saunový svět",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu",
+      "accepted_card_types": "[\"multisport_standard\", \"multisport_student\"]",
+      "note": "120 minut zdarma na MultiSport. Prostěradlo a osuška v ceně."
+    },
+    "policies": {
+      "access_type": "public_walkin",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "children_policy": "adults_only",
+      "children_min_age": 15,
+      "barrier_free_access": "full",
+      "parking_policy": "paid_onsite",
+      "parking_notes": "Parkování v OC Galerie Teplice",
+      "refreshment_type": "sauna_bar_full",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "indoor_plunge_pool",
+        "temp": 9,
+        "desc": "Nerezový bazén",
+        "featured": 1
+      },
+      {
+        "option_id": "ice_well",
+        "temp": 0,
+        "desc": "Ledová tříšť",
+        "featured": 0
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "ceremonial_hall",
+        "name": "Ceremoniální finská sauna",
+        "t_min": 90,
+        "t_max": 100,
+        "h_min": 15,
+        "h_max": 30,
+        "cap": 40,
+        "wood": "Smrk",
+        "desc": "Denní ceremoniály."
+      },
+      {
+        "sauna_type_id": "salt_sauna",
+        "name": "Solná sauna",
+        "t_min": 50,
+        "t_max": 60,
+        "h_min": 35,
+        "h_max": 45,
+        "cap": 16,
+        "wood": "Solné bloky",
+        "desc": "Mikroklima."
+      }
+    ],
+    "amenities": [
+      "relaxation_room_silent",
+      "heated_loungers"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 120 minut",
+        "dur": 120,
+        "price": 415,
+        "stud": 365,
+        "sen": 365,
+        "is_def": 1,
+        "note": "Prostěradlo v ceně"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "wellness-hotel-diana",
+    "city_id": "velke-losiny",
+    "region_id": "cz-olk",
+    "country_id": "CZ",
+    "name": "Wellness Hotel Diana Velké Losiny",
+    "slug": "wellness-hotel-diana",
+    "category": "hotel_mountain",
+    "short_description": "Horský lázeňský wellness hotel v Jeseníkách u lesa s 60 min na MultiSport zdarma.",
+    "description": "Wellness Hotel Diana leží na okraji lázeňské obce Velké Losiny s výhledem na hřebeny Jeseníků. Nabízí finskou suchou saunu, parní lázeň, infrasaunu, ochlazovací bazének, vířivku a možnost masáží.",
+    "address_street": "Žárovská 454",
+    "address_city": "Velké Losiny",
+    "address_zip": "788 15",
+    "latitude": 50.0381,
+    "longitude": 17.0392,
+    "phone": "+420 583 394 200",
+    "email": "diana@lazne-losiny.cz",
+    "website_url": "https://www.hotel-diana.cz",
+    "booking_url": null,
+    "cover_image_url": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 0,
+    "has_natural_water": 0,
+    "has_ice_well": 0,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 0,
+    "has_whirlpool": 1,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 0,
+    "has_private_rental": 1,
+    "rating_overall": 4.55,
+    "rating_cleanliness": 4.7,
+    "rating_heat_steam": 4.6,
+    "rating_cooling": 4.5,
+    "rating_staff_ceremonies": 4.4,
+    "rating_value": 4.6,
+    "review_count": 0,
+    "favorite_count": 15,
+    "is_promoted": 0,
+    "promoted_badge": null,
+    "promoted_tier": null,
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "free_time_limited",
+      "time_limit_minutes": 60,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 20,
+      "overtime_block_minutes": 15,
+      "included_zones": "Wellness centrum (sauny + bazének + vířivka)",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu",
+      "accepted_card_types": "[\"multisport_standard\"]",
+      "note": "60 minut zdarma na MultiSport. Vhodné po turistice v Jeseníkách."
+    },
+    "policies": {
+      "access_type": "hotel_guests_and_public",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "children_policy": "children_welcome",
+      "children_min_age": 6,
+      "barrier_free_access": "full",
+      "parking_policy": "free_onsite",
+      "parking_notes": "Parkoviště u hotelu zdarma",
+      "refreshment_type": "sauna_bar_full",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "indoor_plunge_pool",
+        "temp": 10,
+        "desc": "Ochlazovací bazének",
+        "featured": 1
+      },
+      {
+        "option_id": "bucket_shower",
+        "temp": 8,
+        "desc": "Polévací vědro",
+        "featured": 0
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "finnish_dry",
+        "name": "Jesenícká finská sauna",
+        "t_min": 90,
+        "t_max": 100,
+        "h_min": 15,
+        "h_max": 20,
+        "cap": 16,
+        "wood": "Smrk",
+        "desc": "Horko po horské túře."
+      },
+      {
+        "sauna_type_id": "steam_bath",
+        "name": "Parní kabina",
+        "t_min": 44,
+        "t_max": 48,
+        "h_min": 100,
+        "h_max": 100,
+        "cap": 10,
+        "wood": "Keramika",
+        "desc": "Uvolnění svalů."
+      }
+    ],
+    "amenities": [
+      "whirlpool_indoor",
+      "relaxation_room_silent"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "10:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "10:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "10:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "10:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "09:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "09:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 60 minut",
+        "dur": 60,
+        "price": 200,
+        "stud": 160,
+        "sen": 160,
+        "is_def": 1,
+        "note": "Včetně prostěradla"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "saunia-galerie-butovice",
+    "city_id": "praha",
+    "region_id": "cz-pha",
+    "country_id": "CZ",
+    "name": "Saunia Galerie Butovice",
+    "slug": "saunia-galerie-butovice",
+    "category": "public",
+    "short_description": "Moderní saunový svět v Praze 5 se saunovým dómem a 120 min na MultiSport.",
+    "description": "Oblíbená pobočka sítě Saunia v Galerii Butovice v Praze 5. Nabízí ceremoniální finskou saunu, bylinkovou saunu, parní lázeň a ochlazovací bazének s ledovou studnou.",
+    "address_street": "Radlická 117",
+    "address_city": "Praha 5",
+    "address_zip": "158 00",
+    "latitude": 50.0515,
+    "longitude": 14.3542,
+    "phone": "+420 226 211 213",
+    "email": "butovice@saunia.cz",
+    "website_url": "https://www.saunia.cz/pobocky/butovice",
+    "booking_url": null,
+    "cover_image_url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 0,
+    "has_natural_water": 0,
+    "has_ice_well": 1,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 1,
+    "has_whirlpool": 0,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 0,
+    "rating_overall": 4.5,
+    "rating_cleanliness": 4.6,
+    "rating_heat_steam": 4.6,
+    "rating_cooling": 4.5,
+    "rating_staff_ceremonies": 4.5,
+    "rating_value": 4.7,
+    "review_count": 0,
+    "favorite_count": 23,
+    "is_promoted": 0,
+    "promoted_badge": null,
+    "promoted_tier": null,
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "free_time_limited",
+      "time_limit_minutes": 120,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 30,
+      "overtime_block_minutes": 15,
+      "included_zones": "Kompletní saunový svět",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu",
+      "accepted_card_types": "[\"multisport_standard\", \"multisport_student\"]",
+      "note": "120 minut zdarma na MultiSport. Prostěradlo a osuška v ceně."
+    },
+    "policies": {
+      "access_type": "public_walkin",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "children_policy": "adults_only",
+      "children_min_age": 15,
+      "barrier_free_access": "full",
+      "parking_policy": "paid_onsite",
+      "parking_notes": "3 hodiny parkování v OC zdarma",
+      "refreshment_type": "sauna_bar_full",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "indoor_plunge_pool",
+        "temp": 9,
+        "desc": "Nerezový bazén",
+        "featured": 1
+      },
+      {
+        "option_id": "ice_well",
+        "temp": 0,
+        "desc": "Ledová tříšť",
+        "featured": 0
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "ceremonial_hall",
+        "name": "Ceremoniální finská sauna",
+        "t_min": 90,
+        "t_max": 100,
+        "h_min": 15,
+        "h_max": 30,
+        "cap": 40,
+        "wood": "Smrk",
+        "desc": "Saunové ceremoniály."
+      }
+    ],
+    "amenities": [
+      "relaxation_room_silent",
+      "heated_loungers"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "09:00:00",
+        "close": "23:00:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 120 minut",
+        "dur": 120,
+        "price": 415,
+        "stud": 365,
+        "sen": 365,
+        "is_def": 1,
+        "note": "Prostěradlo v ceně"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "wellness-kurim",
+    "city_id": "kurim",
+    "region_id": "cz-jhm",
+    "country_id": "CZ",
+    "name": "Wellness Kuřim (Vodní ráj)",
+    "slug": "wellness-kurim",
+    "category": "public",
+    "short_description": "Oblíbené wellness u Brna se saunami, venkovním atriem a 90 min na MultiSport.",
+    "description": "Wellness zóna v areálu Vodního ráje Kuřim kousek od Brna. Nabízí suchou finskou saunu, parní lázeň, Kneippův chodník a venkovní ochlazovací atrium.",
+    "address_street": "Blanenská 1082",
+    "address_city": "Kuřim",
+    "address_zip": "664 34",
+    "latitude": 49.2965,
+    "longitude": 16.5298,
+    "phone": "+420 541 263 900",
+    "email": "info@wellnesskurim.cz",
+    "website_url": "https://www.wellnesskurim.cz",
+    "booking_url": null,
+    "cover_image_url": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 1,
+    "has_natural_water": 0,
+    "has_ice_well": 0,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 0,
+    "has_whirlpool": 1,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 0,
+    "has_private_rental": 0,
+    "rating_overall": 4.55,
+    "rating_cleanliness": 4.6,
+    "rating_heat_steam": 4.6,
+    "rating_cooling": 4.6,
+    "rating_staff_ceremonies": 4.3,
+    "rating_value": 4.8,
+    "review_count": 0,
+    "favorite_count": 19,
+    "is_promoted": 0,
+    "promoted_badge": null,
+    "promoted_tier": null,
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "free_time_limited",
+      "time_limit_minutes": 90,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 20,
+      "overtime_block_minutes": 15,
+      "included_zones": "Wellness zóna + bazény",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu",
+      "accepted_card_types": "[\"multisport_standard\"]",
+      "note": "90 minut zdarma na MultiSport."
+    },
+    "policies": {
+      "access_type": "public_walkin",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "children_policy": "children_welcome",
+      "children_min_age": 6,
+      "barrier_free_access": "full",
+      "parking_policy": "free_onsite",
+      "parking_notes": "Parkoviště zdarma u areálu",
+      "refreshment_type": "bistro_restaurant",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "indoor_plunge_pool",
+        "temp": 10,
+        "desc": "Vnitřní bazének",
+        "featured": 1
+      },
+      {
+        "option_id": "outdoor_plunge_pool",
+        "temp": 8,
+        "desc": "Venkovní bazének v atriu",
+        "featured": 1
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "finnish_dry",
+        "name": "Finská sauna 95 °C",
+        "t_min": 90,
+        "t_max": 100,
+        "h_min": 15,
+        "h_max": 20,
+        "cap": 25,
+        "wood": "Smrk",
+        "desc": "Suché teplo."
+      }
+    ],
+    "amenities": [
+      "outdoor_garden",
+      "whirlpool_indoor",
+      "kneipp_path"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "09:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "09:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 90 minut",
+        "dur": 90,
+        "price": 270,
+        "stud": 230,
+        "sen": 230,
+        "is_def": 1,
+        "note": "Včetně bazénu"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "bazen-liberec-mestske-sauny",
+    "city_id": "liberec",
+    "region_id": "cz-lbk",
+    "country_id": "CZ",
+    "name": "Bazén Liberec – Městské sauny",
+    "slug": "bazen-liberec-mestske-sauny",
+    "category": "public",
+    "short_description": "Městské saunové centrum v Liberci s venkovním atriem a 60 min na MultiSport.",
+    "description": "Saunové centrum u 50m městského bazénu v Liberci pod Ještědem. Zahrnuje suchou finskou saunu (až 100 °C), biosaunu s bylinkami, parní lázeň a venkovní atrium s horským čerstvým vzduchem.",
+    "address_street": "Tržní náměstí 1338",
+    "address_city": "Liberec",
+    "address_zip": "460 01",
+    "latitude": 50.7745,
+    "longitude": 15.0601,
+    "phone": "+420 485 103 010",
+    "email": "sauny@bazenliberec.cz",
+    "website_url": "https://www.bazenliberec.cz",
+    "booking_url": null,
+    "cover_image_url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 1,
+    "has_natural_water": 0,
+    "has_ice_well": 0,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 0,
+    "has_whirlpool": 0,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 0,
+    "rating_overall": 4.5,
+    "rating_cleanliness": 4.5,
+    "rating_heat_steam": 4.7,
+    "rating_cooling": 4.7,
+    "rating_staff_ceremonies": 4.1,
+    "rating_value": 4.8,
+    "review_count": 0,
+    "favorite_count": 18,
+    "is_promoted": 0,
+    "promoted_badge": null,
+    "promoted_tier": null,
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "free_time_limited",
+      "time_limit_minutes": 60,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 20,
+      "overtime_block_minutes": 15,
+      "included_zones": "Sauny + plavecký bazén",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu",
+      "accepted_card_types": "[\"multisport_standard\"]",
+      "note": "60 minut zdarma na MultiSport."
+    },
+    "policies": {
+      "access_type": "public_walkin",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "dedicated_days",
+      "women_only_schedule_note": "Čtvrtek vyhrazen pro ženy",
+      "children_policy": "children_welcome",
+      "children_min_age": 6,
+      "barrier_free_access": "full",
+      "parking_policy": "paid_onsite",
+      "parking_notes": "Parkoviště u bazénu",
+      "refreshment_type": "bistro_restaurant",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "indoor_plunge_pool",
+        "temp": 9.5,
+        "desc": "Vnitřní bazén",
+        "featured": 1
+      },
+      {
+        "option_id": "outdoor_plunge_pool",
+        "temp": 7.5,
+        "desc": "Venkovní bazén v atriu",
+        "featured": 1
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "finnish_dry",
+        "name": "Finská sauna 100 °C",
+        "t_min": 95,
+        "t_max": 105,
+        "h_min": 10,
+        "h_max": 20,
+        "cap": 25,
+        "wood": "Smrk",
+        "desc": "Horká suchá sauna."
+      }
+    ],
+    "amenities": [
+      "outdoor_garden",
+      "swimming_pool",
+      "kneipp_path"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": "Dámský den"
+      },
+      {
+        "day": 4,
+        "open": "10:00:00",
+        "close": "21:30:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "09:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "09:00:00",
+        "close": "21:00:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 60 minut",
+        "dur": 60,
+        "price": 190,
+        "stud": 150,
+        "sen": 150,
+        "is_def": 1,
+        "note": "Včetně bazénu"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "purkmistr-pivni-lazne",
+    "city_id": "plzen",
+    "region_id": "cz-plk",
+    "country_id": "CZ",
+    "name": "Pivovarský dvůr Purkmistr – Pivní a wellness lázně",
+    "slug": "purkmistr-pivni-lazne",
+    "category": "private",
+    "short_description": "Tradiční pivní a privátní wellness lázně na Selské návsi v Plzni-Černicích.",
+    "description": "Vyhlášené pivní a saunové lázně v historickém dvoře Purkmistr v Plzni. Nabízí privátní dřevěné modřínové vany s pivní koupelí, finskou saunu, bylinnou páru a odpočívárnu.",
+    "address_street": "Selská náves 21/2",
+    "address_city": "Plzeň-Černice",
+    "address_zip": "326 00",
+    "latitude": 49.7028,
+    "longitude": 13.4152,
+    "phone": "+420 377 994 366",
+    "email": "lazne@purkmistr.cz",
+    "website_url": "https://www.purkmistr.cz",
+    "booking_url": "https://www.purkmistr.cz/rezervace",
+    "cover_image_url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 0,
+    "has_outdoor_cooling": 0,
+    "has_natural_water": 0,
+    "has_ice_well": 0,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 0,
+    "has_whirlpool": 1,
+    "has_steam_bath": 1,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 1,
+    "rating_overall": 4.8,
+    "rating_cleanliness": 4.9,
+    "rating_heat_steam": 4.7,
+    "rating_cooling": 4.4,
+    "rating_staff_ceremonies": 4.8,
+    "rating_value": 4.6,
+    "review_count": 0,
+    "favorite_count": 31,
+    "is_promoted": 1,
+    "promoted_badge": "Doporučeno / Partner",
+    "promoted_tier": "basic",
+    "status": "active",
+    "multisport": {
+      "is_accepted": 0,
+      "benefit_type": "not_accepted",
+      "time_limit_minutes": null,
+      "discount_amount_czk": null,
+      "discount_percentage": null,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": null,
+      "overtime_block_minutes": null,
+      "included_zones": "MultiSport není akceptován",
+      "towel_sheet_service_included": 0,
+      "valid_days": "all_week",
+      "valid_hours_description": "Neakceptuje",
+      "accepted_card_types": "[]",
+      "note": "Privátní zážitkový koncept."
+    },
+    "policies": {
+      "access_type": "strictly_private",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "children_policy": "adults_only",
+      "children_min_age": 18,
+      "barrier_free_access": "partial",
+      "parking_policy": "free_onsite",
+      "parking_notes": "Parkoviště v areálu pivovaru Purkmistr",
+      "refreshment_type": "bistro_restaurant",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "bucket_shower",
+        "temp": 9,
+        "desc": "Dřevěné vědro s chladnou vodou",
+        "featured": 1
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "finnish_dry",
+        "name": "Chmelová finská sauna",
+        "t_min": 90,
+        "t_max": 100,
+        "h_min": 15,
+        "h_max": 20,
+        "cap": 8,
+        "wood": "Modřín",
+        "desc": "Chmelový nálev."
+      },
+      {
+        "sauna_type_id": "steam_bath",
+        "name": "Bylinná parní lázeň",
+        "t_min": 44,
+        "t_max": 48,
+        "h_min": 100,
+        "h_max": 100,
+        "cap": 6,
+        "wood": "Mozaika",
+        "desc": "Pára s chmelovými silicemi."
+      }
+    ],
+    "amenities": [
+      "whirlpool_indoor",
+      "relaxation_room_fireplace"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "11:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": "Na rezervaci"
+      },
+      {
+        "day": 1,
+        "open": "11:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": "Na rezervaci"
+      },
+      {
+        "day": 2,
+        "open": "11:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": "Na rezervaci"
+      },
+      {
+        "day": 3,
+        "open": "11:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": "Na rezervaci"
+      },
+      {
+        "day": 4,
+        "open": "11:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": "Na rezervaci"
+      },
+      {
+        "day": 5,
+        "open": "10:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": "Na rezervaci"
+      },
+      {
+        "day": 6,
+        "open": "10:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": "Na rezervaci"
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Pivní lázeň + sauna 90 minut pro 2 osoby",
+        "dur": 90,
+        "price": 2200,
+        "stud": null,
+        "sen": null,
+        "is_def": 1,
+        "note": "Včetně neomezeného čepovaného ležáku Purkmistr"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  },
+  {
+    "id": "grund-resort-golf-ski",
+    "city_id": "mlade-buky",
+    "region_id": "cz-hkk",
+    "country_id": "CZ",
+    "name": "Grund Resort Golf & Ski Wellness",
+    "slug": "grund-resort-golf-ski",
+    "category": "hotel_mountain",
+    "short_description": "Designový horský wellness resort v Mladých Bukách pod Černou horou s 20% slevou na MultiSport.",
+    "description": "Moderní hotelový resort navržený italskými designéry na úpatí východních Krkonoš. Wellness nabízí finskou suchou saunu, bylinnou aromasaunu, ochlazovací bazének, krytý plavecký bazén s protiproudem a panoramatickou terasu s výhledem na golfové hřiště a hory.",
+    "address_street": "Kalná Voda 5",
+    "address_city": "Mladé Buky",
+    "address_zip": "542 23",
+    "latitude": 50.6033,
+    "longitude": 15.8361,
+    "phone": "+420 499 859 911",
+    "email": "info@grundresort.cz",
+    "website_url": "https://www.grundresort.cz",
+    "booking_url": null,
+    "cover_image_url": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+    "gallery_urls": "[]",
+    "has_plunge_pool": 1,
+    "has_outdoor_cooling": 1,
+    "has_natural_water": 0,
+    "has_ice_well": 0,
+    "has_bucket_shower": 1,
+    "has_experience_showers": 1,
+    "has_ceremonial_hall": 0,
+    "has_whirlpool": 1,
+    "has_steam_bath": 0,
+    "has_herbal_sauna": 1,
+    "has_private_rental": 1,
+    "rating_overall": 4.7,
+    "rating_cleanliness": 4.85,
+    "rating_heat_steam": 4.75,
+    "rating_cooling": 4.65,
+    "rating_staff_ceremonies": 4.5,
+    "rating_value": 4.6,
+    "review_count": 0,
+    "favorite_count": 28,
+    "is_promoted": 1,
+    "promoted_badge": "Doporučeno / Partner",
+    "promoted_tier": "basic",
+    "status": "active",
+    "multisport": {
+      "is_accepted": 1,
+      "benefit_type": "entry_discount",
+      "time_limit_minutes": 120,
+      "discount_amount_czk": null,
+      "discount_percentage": 20,
+      "entry_surcharge_czk": null,
+      "overtime_surcharge_per_block_czk": 25,
+      "overtime_block_minutes": 15,
+      "included_zones": "Kompletní wellness centrum (sauny + bazén)",
+      "towel_sheet_service_included": 1,
+      "valid_days": "all_week",
+      "valid_hours_description": "Po celou otevírací dobu",
+      "accepted_card_types": "[\"multisport_standard\"]",
+      "note": "20% sleva na 120 minut vstupu do wellness s MultiSport kartou."
+    },
+    "policies": {
+      "access_type": "hotel_guests_and_public",
+      "nudity_policy": "strict_nudist",
+      "women_only_policy": "none",
+      "children_policy": "children_welcome",
+      "children_min_age": 6,
+      "barrier_free_access": "full",
+      "parking_policy": "free_onsite",
+      "parking_notes": "Parkoviště u resortu zdarma",
+      "refreshment_type": "sauna_bar_full",
+      "towels_and_sheets": "included_free"
+    },
+    "cooling_ids": [
+      {
+        "option_id": "indoor_plunge_pool",
+        "temp": 9,
+        "desc": "Nerezový ochlazovací bazének",
+        "featured": 1
+      },
+      {
+        "option_id": "outdoor_plunge_pool",
+        "temp": 7,
+        "desc": "Venkovní terasa pod horami",
+        "featured": 1
+      }
+    ],
+    "saunas": [
+      {
+        "sauna_type_id": "finnish_dry",
+        "name": "Horská finská sauna",
+        "t_min": 90,
+        "t_max": 100,
+        "h_min": 15,
+        "h_max": 20,
+        "cap": 18,
+        "wood": "Krkonošský smrk",
+        "desc": "Příjemné suché horko."
+      },
+      {
+        "sauna_type_id": "bio_herbal",
+        "name": "Bylinná aromasauna",
+        "t_min": 60,
+        "t_max": 65,
+        "h_min": 45,
+        "h_max": 55,
+        "cap": 12,
+        "wood": "Osika",
+        "desc": "Přírodní lesní esence."
+      }
+    ],
+    "amenities": [
+      "outdoor_garden",
+      "whirlpool_indoor",
+      "swimming_pool"
+    ],
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "10:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 1,
+        "open": "10:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 2,
+        "open": "10:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 3,
+        "open": "10:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 4,
+        "open": "10:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 5,
+        "open": "09:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      },
+      {
+        "day": 6,
+        "open": "09:00:00",
+        "close": "22:00:00",
+        "closed": 0,
+        "note": null
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Vstup 120 minut",
+        "dur": 120,
+        "price": 420,
+        "stud": 350,
+        "sen": 350,
+        "is_def": 1,
+        "note": "Včetně bazénu a ručníkového servisu"
+      }
+    ],
+    "reviews": [],
+    "ceremonies": []
+  }
+]

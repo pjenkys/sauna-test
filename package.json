@@ -1,0 +1,32 @@
+{
+  "name": "czech-sauna-database",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Komplexní komunitní databáze a vyhledávač saun a wellness pro ČR",
+  "workspaces": [
+    "shared",
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev:server": "npm.cmd run dev --prefix server",
+    "dev:client": "npm.cmd run dev --prefix client",
+    "build:client": "npm.cmd run build --prefix client",
+    "build": "npm.cmd run build --prefix shared && npm.cmd run build --prefix server && npm.cmd run build:client",
+    "start": "node server/dist/index.js",
+    "db:migrate": "npm.cmd run db:migrate --prefix server",
+    "db:seed": "npm.cmd run db:seed --prefix server",
+    "import:multisport": "npm.cmd run import:multisport --prefix server",
+    "db:verify": "npm.cmd run db:verify --prefix server",
+    "test": "npm.cmd run test --prefix server"
+  },
+  "keywords": [
+    "sauna",
+    "wellness",
+    "czech-republic",
+    "multisport",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build artifacts
+dist/
+**/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# SQLite temporary files (keep sauna.db)
+*.db-wal
+*.db-shm
+*.db-journal
+
+# Agent scratch & temp files
+.agents/
+*.tmp
+test_ps.txt
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,21 @@
+﻿<svg xmlns=http://www.w3.org/2000/svg viewBox=0 0 512 512 width=512 height=512>
+  <defs>
+    <linearGradient id=m3-teal-grad x1=0% y1=0% x2=100% y2=100%>
+      <stop offset=0% stop-color=#006A60 />
+      <stop offset=100% stop-color=#004d46 />
+    </linearGradient>
+    <linearGradient id=m3-accent-grad x1=0% y1=0% x2=100% y2=100%>
+      <stop offset=0% stop-color=#70F7E6 />
+      <stop offset=100% stop-color=#4fd8c7 />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width=512 height=512 rx=128 fill=url(#m3-teal-grad)/>
+  <!-- Inner circular glow -->
+  <circle cx=256 cy=256 r=180 fill=#00201C opacity=0.3/>
+  <!-- Sauna Flame / Steam Symbol -->
+  <g transform=translate(106, 86) scale(12.5)>
+    <!-- Base heat stones -->
+    <path d=M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14.5c0 .83-.67 1.5-1.5 1.5S10 17.33 10 16.5V11c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v5.5zm4-2c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5V13c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v1.5zm-8 0c0 .83-.67 1.5-1.5 1.5S6 15.33 6 14.5V13c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v1.5z fill=#70F7E6/>
+  </g>
+</svg>

@@ -1,0 +1,203 @@
+{
+  "countries": [
+    {
+      "id": "CZ",
+      "name": "Česká republika",
+      "slug": "cesko",
+      "currency_code": "CZK",
+      "default_locale": "cs-CZ",
+      "phone_prefix": "+420",
+      "bounds_north": 51.0557,
+      "bounds_south": 48.5518,
+      "bounds_east": 18.8592,
+      "bounds_west": 12.0906,
+      "center_latitude": 49.8175,
+      "center_longitude": 15.4730,
+      "is_active": 1
+    },
+    {
+      "id": "SK",
+      "name": "Slovensko",
+      "slug": "slovensko",
+      "currency_code": "EUR",
+      "default_locale": "sk-SK",
+      "phone_prefix": "+421",
+      "bounds_north": 49.6138,
+      "bounds_south": 47.7311,
+      "bounds_east": 22.5658,
+      "bounds_west": 16.8332,
+      "center_latitude": 48.6690,
+      "center_longitude": 19.6990,
+      "is_active": 0
+    }
+  ],
+  "regions": [
+    { "id": "cz-pha", "country_id": "CZ", "code": "PHA", "name": "Hlavní město Praha", "short_name": "Praha", "slug": "praha", "latitude": 50.0878, "longitude": 14.4205, "zoom_level": 11, "display_order": 1, "is_active": 1 },
+    { "id": "cz-stc", "country_id": "CZ", "code": "STC", "name": "Středočeský kraj", "short_name": "Středočeský", "slug": "stredocesky-kraj", "latitude": 50.0000, "longitude": 14.7000, "zoom_level": 9, "display_order": 2, "is_active": 1 },
+    { "id": "cz-jhm", "country_id": "CZ", "code": "JHM", "name": "Jihomoravský kraj", "short_name": "Jihomoravský", "slug": "jihomoravsky-kraj", "latitude": 49.1951, "longitude": 16.6068, "zoom_level": 10, "display_order": 3, "is_active": 1 },
+    { "id": "cz-msk", "country_id": "CZ", "code": "MSK", "name": "Moravskoslezský kraj", "short_name": "Moravskoslezský", "slug": "moravskoslezsky-kraj", "latitude": 49.8347, "longitude": 18.2820, "zoom_level": 10, "display_order": 4, "is_active": 1 },
+    { "id": "cz-plk", "country_id": "CZ", "code": "PLK", "name": "Plzeňský kraj", "short_name": "Plzeňský", "slug": "plzensky-kraj", "latitude": 49.7475, "longitude": 13.3776, "zoom_level": 10, "display_order": 5, "is_active": 1 },
+    { "id": "cz-lbk", "country_id": "CZ", "code": "LBK", "name": "Liberecký kraj", "short_name": "Liberecký", "slug": "liberecky-kraj", "latitude": 50.7671, "longitude": 15.0562, "zoom_level": 10, "display_order": 6, "is_active": 1 },
+    { "id": "cz-hkk", "country_id": "CZ", "code": "HKK", "name": "Královéhradecký kraj", "short_name": "Královéhradecký", "slug": "kralovehradecky-kraj", "latitude": 50.2092, "longitude": 15.8328, "zoom_level": 10, "display_order": 7, "is_active": 1 },
+    { "id": "cz-olk", "country_id": "CZ", "code": "OLK", "name": "Olomoucký kraj", "short_name": "Olomoucký", "slug": "olomoucky-kraj", "latitude": 49.5938, "longitude": 17.2509, "zoom_level": 10, "display_order": 8, "is_active": 1 },
+    { "id": "cz-jhc", "country_id": "CZ", "code": "JHC", "name": "Jihočeský kraj", "short_name": "Jihočeský", "slug": "jihocesky-kraj", "latitude": 48.9745, "longitude": 14.4743, "zoom_level": 10, "display_order": 9, "is_active": 1 },
+    { "id": "cz-vys", "country_id": "CZ", "code": "VYS", "name": "Kraj Vysočina", "short_name": "Vysočina", "slug": "kraj-vysocina", "latitude": 49.3961, "longitude": 15.5882, "zoom_level": 10, "display_order": 10, "is_active": 1 },
+    { "id": "cz-ulk", "country_id": "CZ", "code": "ULK", "name": "Ústecký kraj", "short_name": "Ústecký", "slug": "ustecky-kraj", "latitude": 50.6607, "longitude": 14.0323, "zoom_level": 10, "display_order": 11, "is_active": 1 },
+    { "id": "cz-pak", "country_id": "CZ", "code": "PAK", "name": "Pardubický kraj", "short_name": "Pardubický", "slug": "pardubicky-kraj", "latitude": 50.0343, "longitude": 15.7812, "zoom_level": 10, "display_order": 12, "is_active": 1 },
+    { "id": "cz-zlk", "country_id": "CZ", "code": "ZLK", "name": "Zlínský kraj", "short_name": "Zlínský", "slug": "zlinsky-kraj", "latitude": 49.2243, "longitude": 17.6627, "zoom_level": 10, "display_order": 13, "is_active": 1 },
+    { "id": "cz-kvk", "country_id": "CZ", "code": "KVK", "name": "Karlovarský kraj", "short_name": "Karlovarský", "slug": "karlovarsky-kraj", "latitude": 50.2319, "longitude": 12.8719, "zoom_level": 10, "display_order": 14, "is_active": 1 }
+  ],
+  "cities": [
+    { "id": "praha", "region_id": "cz-pha", "name": "Praha", "slug": "praha", "postal_code_prefix": "1", "latitude": 50.0755, "longitude": 14.4378, "is_major": 1, "sauna_count": 8 },
+    { "id": "cestlice", "region_id": "cz-stc", "name": "Čestlice", "slug": "cestlice", "postal_code_prefix": "251", "latitude": 50.0075, "longitude": 14.5714, "is_major": 0, "sauna_count": 1 },
+    { "id": "brno", "region_id": "cz-jhm", "name": "Brno", "slug": "brno", "postal_code_prefix": "6", "latitude": 49.1951, "longitude": 16.6068, "is_major": 1, "sauna_count": 4 },
+    { "id": "kurim", "region_id": "cz-jhm", "name": "Kuřim", "slug": "kurim", "postal_code_prefix": "664", "latitude": 49.2965, "longitude": 16.5298, "is_major": 0, "sauna_count": 1 },
+    { "id": "ostrava", "region_id": "cz-msk", "name": "Ostrava", "slug": "ostrava", "postal_code_prefix": "7", "latitude": 49.8347, "longitude": 18.2820, "is_major": 1, "sauna_count": 3 },
+    { "id": "plzen", "region_id": "cz-plk", "name": "Plzeň", "slug": "plzen", "postal_code_prefix": "3", "latitude": 49.7475, "longitude": 13.3776, "is_major": 1, "sauna_count": 3 },
+    { "id": "liberec", "region_id": "cz-lbk", "name": "Liberec", "slug": "liberec", "postal_code_prefix": "460", "latitude": 50.7671, "longitude": 15.0562, "is_major": 1, "sauna_count": 2 },
+    { "id": "spindleruv-mlyn", "region_id": "cz-hkk", "name": "Špindlerův Mlýn", "slug": "spindleruv-mlyn", "postal_code_prefix": "543", "latitude": 50.7258, "longitude": 15.6083, "is_major": 0, "sauna_count": 2 },
+    { "id": "mlade-buky", "region_id": "cz-hkk", "name": "Mladé Buky", "slug": "mlade-buky", "postal_code_prefix": "542", "latitude": 50.6033, "longitude": 15.8361, "is_major": 0, "sauna_count": 1 },
+    { "id": "pec-pod-snezkou", "region_id": "cz-hkk", "name": "Pec pod Sněžkou", "slug": "pec-pod-snezkou", "postal_code_prefix": "542", "latitude": 50.6938, "longitude": 15.7335, "is_major": 0, "sauna_count": 1 },
+    { "id": "hradec-kralove", "region_id": "cz-hkk", "name": "Hradec Králové", "slug": "hradec-kralove", "postal_code_prefix": "500", "latitude": 50.2131, "longitude": 15.8268, "is_major": 1, "sauna_count": 1 },
+    { "id": "olomouc", "region_id": "cz-olk", "name": "Olomouc", "slug": "olomouc", "postal_code_prefix": "779", "latitude": 49.5991, "longitude": 17.2435, "is_major": 1, "sauna_count": 1 },
+    { "id": "velke-losiny", "region_id": "cz-olk", "name": "Velké Losiny", "slug": "velke-losiny", "postal_code_prefix": "788", "latitude": 50.0381, "longitude": 17.0392, "is_major": 0, "sauna_count": 1 },
+    { "id": "ceske-budejovice", "region_id": "cz-jhc", "name": "České Budějovice", "slug": "ceske-budejovice", "postal_code_prefix": "370", "latitude": 48.9748, "longitude": 14.4682, "is_major": 1, "sauna_count": 1 },
+    { "id": "pocatky", "region_id": "cz-vys", "name": "Počátky", "slug": "pocatky", "postal_code_prefix": "394", "latitude": 49.2842, "longitude": 15.2934, "is_major": 0, "sauna_count": 1 },
+    { "id": "teplice", "region_id": "cz-ulk", "name": "Teplice", "slug": "teplice", "postal_code_prefix": "415", "latitude": 50.6405, "longitude": 13.8248, "is_major": 1, "sauna_count": 1 }
+  ],
+  "cooling_options": [
+    { "id": "indoor_plunge_pool", "name_cz": "Vnitřní ochlazovací bazének", "name_en": "Indoor plunge pool", "category": "plunge_pool", "icon_name": "droplets", "description": "Klasický interiérový ochlazovací bazének s vodou 8-12 °C." },
+    { "id": "outdoor_plunge_pool", "name_cz": "Venkovní ochlazovací bazének", "name_en": "Outdoor plunge pool", "category": "plunge_pool", "icon_name": "sun-snow", "description": "Ochlazovací bazének pod širým nebem na terase nebo v atriu." },
+    { "id": "natural_water_river", "name_cz": "Přírodní řeka", "name_en": "Natural river", "category": "natural_water", "icon_name": "waves", "description": "Ochlazení přímo v tekoucí řece (Vltava, horské bystřiny) z dřevěného mola." },
+    { "id": "natural_water_lake", "name_cz": "Přírodní jezero / biotop", "name_en": "Natural lake / biotop", "category": "natural_water", "icon_name": "fish", "description": "Koupací biotopové jezírko bez chemické úpravy vody." },
+    { "id": "ice_well", "name_cz": "Ledová studna / ledová tříšť", "name_en": "Ice well / crushed ice", "category": "ice", "icon_name": "snowflake", "description": "Generátor jemného šupinkového ledu k potírání rozehřáté pokožky." },
+    { "id": "bucket_shower", "name_cz": "Polévací vědro odvahy", "name_en": "Bucket deluge shower", "category": "shower", "icon_name": "bucket", "description": "Rázové ochlazení přívalem 20 litrů ledové vody." },
+    { "id": "experience_showers", "name_cz": "Zážitkové sprchy", "name_en": "Experience showers", "category": "shower", "icon_name": "cloud-rain", "description": "Sprchy s volbou polární mlhy, tropického deště a aromaterapie." },
+    { "id": "snow_room", "name_cz": "Sněhová komora", "name_en": "Snow room", "category": "special", "icon_name": "thermometer-snowflake", "description": "Místnost se skutečným suchým sněhem při -5 až -10 °C." },
+    { "id": "kneipp_path", "name_cz": "Kneippův chodník", "name_en": "Kneipp path", "category": "special", "icon_name": "footprints", "description": "Chůze po oblázcích ve střídavě studené a teplé vodě." }
+  ],
+  "sauna_types": [
+    { "id": "finnish_dry", "name_cz": "Finská / suchá sauna", "name_en": "Finnish dry sauna", "default_temp_celsius": 95, "default_humidity_percentage": 15, "icon_name": "flame", "description": "Tradiční sauna z masivního dřeva s lávovými kameny a vysokou teplotou 85-110 °C." },
+    { "id": "bio_herbal", "name_cz": "Biosauna / bylinková sauna", "name_en": "Bio / herbal sauna", "default_temp_celsius": 60, "default_humidity_percentage": 50, "icon_name": "leaf", "description": "Mírnější teplota se zvýšenou vlhkostí a odpařováním přírodních bylinných esencí." },
+    { "id": "steam_bath", "name_cz": "Parní lázeň", "name_en": "Steam bath", "default_temp_celsius": 45, "default_humidity_percentage": 100, "icon_name": "cloud", "description": "Vysoká vlhkost 100 % při příjemné teplotě 42-48 °C, ideální pro dýchací cesty." },
+    { "id": "infrasauna", "name_cz": "Infrasauna", "name_en": "Infrared sauna", "default_temp_celsius": 45, "default_humidity_percentage": 10, "icon_name": "sun", "description": "Hloubkové prohřátí svalů a kloubů pomocí sálavého infračerveného spektra." },
+    { "id": "ceremonial_hall", "name_cz": "Ceremoniální sál", "name_en": "Sauna theater / ceremonial hall", "default_temp_celsius": 88, "default_humidity_percentage": 30, "icon_name": "theater", "description": "Velkoplošná sauna s amfiteátrovým sezením a ozvučením pro saunová představení a rituály." },
+    { "id": "salt_sauna", "name_cz": "Solná sauna / inhalace", "name_en": "Salt sauna", "default_temp_celsius": 55, "default_humidity_percentage": 40, "icon_name": "sparkles", "description": "Kombinace příjemného tepla se stěnami z přírodních himálajských solných krystalů." },
+    { "id": "rustic_banya", "name_cz": "Ruská baňa", "name_en": "Russian banya", "default_temp_celsius": 75, "default_humidity_percentage": 60, "icon_name": "tree-deciduous", "description": "Masivní srubová sauna se silným parním rázem a metličkováním březovými větvemi." },
+    { "id": "kelo_sauna", "name_cz": "Kelo sauna", "name_en": "Kelo log sauna", "default_temp_celsius": 90, "default_humidity_percentage": 20, "icon_name": "shield", "description": "Exkluzivní sauna vyrobená ze staletých suchých polárních borovic s nezaměnitelným aroma." }
+  ],
+  "amenity_facilities": [
+    { "id": "whirlpool_indoor", "name_cz": "Vnitřní vířivka", "name_en": "Indoor whirlpool", "icon_name": "waves", "description": "Vyhřívaná vířivá vana s hydromasážními tryskami." },
+    { "id": "whirlpool_outdoor", "name_cz": "Venkovní vířivka", "name_en": "Outdoor whirlpool", "icon_name": "sun", "description": "Teplá vířivka pod širým nebem s výhledem." },
+    { "id": "outdoor_garden", "name_cz": "Venkovní relaxační zahrada", "name_en": "Outdoor garden", "icon_name": "trees", "description": "Zelená odpočinková plocha s lehátky a čerstvým vzduchem." },
+    { "id": "relaxation_room_silent", "name_cz": "Tichá odpočívárna", "name_en": "Silent relaxation room", "icon_name": "volume-x", "description": "Zóna absolutního klidu s anatomickými lehátky a relaxační hudbou." },
+    { "id": "relaxation_room_fireplace", "name_cz": "Odpočívárna s krbem", "name_en": "Fireplace relaxation room", "icon_name": "flame", "description": "Útulná relaxační místnost s praskajícím ohněm v krbu." },
+    { "id": "heated_loungers", "name_cz": "Vyhřívaná lehátka", "name_en": "Heated loungers", "icon_name": "armchair", "description": "Ergonomicky tvarovaná keramická vyhřívaná lehátka." },
+    { "id": "kneipp_path", "name_cz": "Kneippův chodník", "name_en": "Kneipp path", "icon_name": "footprints", "description": "Kneippův chodník pro stimulaci krevního oběhu." },
+    { "id": "swimming_pool", "name_cz": "Plavecký bazén", "name_en": "Swimming pool", "icon_name": "swim", "description": "Klasický plavecký bazén (25m nebo 50m) v areálu." }
+  ],
+  "affiliate_partner_products": [
+    {
+      "id": "prod_wool_hat",
+      "category": "sauna_hats",
+      "product_name": "Vlněná saunová čepice z přírodní ovčí plsti",
+      "partner_shop_name": "SaunaMaster.cz",
+      "image_url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=600&q=80",
+      "price_czk": 390.00,
+      "affiliate_url": "https://partner.saunamaster.cz/cepice-ovci-plst?ref=saunycz",
+      "description": "Chrání vlasy a hlavu před přehřátím v horké sauně. 100% přírodní ovčí vlna.",
+      "is_active": 1,
+      "display_order": 1
+    },
+    {
+      "id": "prod_birch_oil",
+      "category": "essential_oils",
+      "product_name": "100% Přírodní esenciální olej Finská bříza & borovice 50ml",
+      "partner_shop_name": "AromaLázně.cz",
+      "image_url": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=600&q=80",
+      "price_czk": 280.00,
+      "affiliate_url": "https://partner.aromalazne.cz/finska-briza?ref=saunycz",
+      "description": "Autentické severské aroma pro polévání lávových kamenů. Uvolňuje dýchací cesty.",
+      "is_active": 1,
+      "display_order": 2
+    },
+    {
+      "id": "prod_cotton_kilt",
+      "category": "kilts_towels",
+      "product_name": "Bavlněný vaflový saunový kilt s kapsou a suchým zipem",
+      "partner_shop_name": "SaunaTextil.cz",
+      "image_url": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=600&q=80",
+      "price_czk": 540.00,
+      "affiliate_url": "https://partner.saunatextil.cz/kilt-vafle-pansky?ref=saunycz",
+      "description": "Vysoce savý bavlněný kilt, ideální do bezplavkových zón a ceremoniálních sálů.",
+      "is_active": 1,
+      "display_order": 3
+    },
+    {
+      "id": "prod_himalayan_scrub",
+      "category": "peelings",
+      "product_name": "Solný peeling s himálajskou krystalickou solí a mandlovým olejem 350g",
+      "partner_shop_name": "BioWellness.cz",
+      "image_url": "https://images.unsplash.com/photo-1512290900672-1a48c5e9e034?auto=format&fit=crop&w=600&q=80",
+      "price_czk": 220.00,
+      "affiliate_url": "https://partner.biowellness.cz/himalajsky-peeling?ref=saunycz",
+      "description": "Dokonalý pro použití v parní sauně k odstranění odumřelých kožních buněk a zjemnění pokožky.",
+      "is_active": 1,
+      "display_order": 4
+    }
+  ],
+  "users": [
+    {
+      "id": "user_sauna_master_jakub",
+      "email": "jakub.kral@saunaspot.cz",
+      "password_hash": "$2b$10$DEMOHASHPROTECTEDSTRINGFORTESTINGONLY",
+      "display_name": "Jakub Král (Saunový nadšenec)",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+      "role": "partner",
+      "bio": "Dlouholetý saunér a certifikovaný mistr ceremoniálů. Navštívil jsem přes 80 saun po Evropě.",
+      "preferred_region_id": "cz-pha",
+      "is_email_verified": 1,
+      "reviews_count": 12,
+      "helpful_votes_received": 145
+    },
+    {
+      "id": "user_eva_wellness",
+      "email": "eva.novakova@seznam.cz",
+      "password_hash": "$2b$10$DEMOHASHPROTECTEDSTRINGFORTESTINGONLY",
+      "display_name": "Eva Nováková",
+      "avatar_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80",
+      "role": "user",
+      "bio": "Milovnice bylinkových biosaun a přírodního ochlazování. Pravidelně cvičím a saunuji s MultiSportem.",
+      "preferred_region_id": "cz-jhm",
+      "is_email_verified": 1,
+      "reviews_count": 8,
+      "helpful_votes_received": 92
+    },
+    {
+      "id": "user_tomas_plzen",
+      "email": "tomas.dvorak@centrum.cz",
+      "password_hash": "$2b$10$DEMOHASHPROTECTEDSTRINGFORTESTINGONLY",
+      "display_name": "Tomáš Dvořák",
+      "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+      "role": "user",
+      "bio": "Kondiční plavec a fanda pořádného finského tepla nad 100 stupňů.",
+      "preferred_region_id": "cz-plk",
+      "is_email_verified": 1,
+      "reviews_count": 6,
+      "helpful_votes_received": 41
+    },
+    {
+      "id": "user_admin_saunycz",
+      "email": "admin@ceskesauny.cz",
+      "password_hash": "$2b$10$DEMOHASHPROTECTEDSTRINGFORTESTINGONLY",
+      "display_name": "České Sauny Tým",
+      "avatar_url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=200&q=80",
+      "role": "admin",
+      "bio": "Oficiální správce komunitní databáze saun a wellness center v ČR.",
+      "preferred_region_id": "cz-pha",
+      "is_email_verified": 1,
+      "reviews_count": 0,
+      "helpful_votes_received": 0
+    }
+  ]
+}
