@@ -26,6 +26,7 @@ yarn-error.log*
 .agents/
 *.tmp
 test_ps.txt
+push_to_github.bat
 
 # Editor / OS
 .DS_Store
