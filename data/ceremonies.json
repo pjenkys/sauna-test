@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cer_dvorce_vltava_ritual",
+    "venue_id": "saunaspot-dvorce",
+    "title": "Vltavský večerní rituál s eukalyptem",
+    "category": "relaxing",
+    "description": "Zklidňující parní ráz s přírodními esencemi z eukalyptu a mentolu, zakončený společným ochlazením v řece.",
+    "ceremony_master": "Jakub Král",
+    "hall_name": "Ceremoniální dóm",
+    "day_of_week": 3,
+    "is_recurring": 1,
+    "recurrence_pattern": "weekly",
+    "start_time": "18:00:00",
+    "end_time": "18:15:00",
+    "event_date": null,
+    "special_entry_fee_czk": 0,
+    "is_featured": 0,
+    "created_at": "2026-09-17 01:23:54"
+  },
+  {
+    "id": "cer_maximus_show_night",
+    "venue_id": "infinit-maximus-brno",
+    "title": "Divadelní ceremoniál 'Noc na jezeře'",
+    "category": "dynamic_show",
+    "description": "Dynamické mávání vlajkami a ručníky za doprovodu epické filmové hudby v podání mistra ČR v saunových ceremoniálech.",
+    "ceremony_master": "Lukáš Polák",
+    "hall_name": "Saunový dóm na jezeře",
+    "day_of_week": 4,
+    "is_recurring": 1,
+    "recurrence_pattern": "weekly",
+    "start_time": "19:00:00",
+    "end_time": "19:18:00",
+    "event_date": null,
+    "special_entry_fee_czk": 0,
+    "is_featured": 0,
+    "created_at": "2026-09-17 01:23:54"
+  }
+]
