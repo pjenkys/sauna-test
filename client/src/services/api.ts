@@ -111,21 +111,31 @@ async function request<T>(endpoint: string, options: RequestInit = {}): Promise<
   return json;
 }
 
+import { getStaticSaunas, getStaticSaunaDetail, getStaticCeremonies } from './staticFallback';
+
 export const api = {
   // 1. Saunas
   async getSaunas(params: GetSaunasParams = {}): Promise<GetSaunasResponse> {
-    const query = new URLSearchParams();
-    Object.entries(params).forEach(([key, val]) => {
-      if (val !== undefined && val !== null && val !== '') {
-        query.append(key, String(val));
-      }
-    });
-    const qStr = query.toString();
-    return request<GetSaunasResponse>(`/saunas${qStr ? `?${qStr}` : ''}`);
+    try {
+      const query = new URLSearchParams();
+      Object.entries(params).forEach(([key, val]) => {
+        if (val !== undefined && val !== null && val !== '') {
+          query.append(key, String(val));
+        }
+      });
+      const qStr = query.toString();
+      return await request<GetSaunasResponse>(`/saunas${qStr ? `?${qStr}` : ''}`);
+    } catch (err) {
+      return getStaticSaunas(params);
+    }
   },
 
   async getSaunaDetail(slugOrId: string): Promise<{ success: boolean; data: SaunaDetail }> {
-    return request<{ success: boolean; data: SaunaDetail }>(`/saunas/${encodeURIComponent(slugOrId)}`);
+    try {
+      return await request<{ success: boolean; data: SaunaDetail }>(`/saunas/${encodeURIComponent(slugOrId)}`);
+    } catch (err) {
+      return getStaticSaunaDetail(slugOrId);
+    }
   },
 
   async getRecommendations(lat: number, lon: number, limit = 3): Promise<{ success: boolean; data: SaunaSummary[] }> {
@@ -214,12 +224,16 @@ export const api = {
 
   // 7. Ceremonies
   async getCeremonies(params: { venue_id?: string; category?: string; day_of_week?: number } = {}): Promise<{ success: boolean; data: SaunaCeremony[] }> {
-    const query = new URLSearchParams();
-    if (params.venue_id) query.append('venue_id', params.venue_id);
-    if (params.category) query.append('category', params.category);
-    if (params.day_of_week !== undefined) query.append('day_of_week', String(params.day_of_week));
-    const qStr = query.toString();
-    return request<{ success: boolean; data: SaunaCeremony[] }>(`/ceremonies${qStr ? `?${qStr}` : ''}`);
+    try {
+      const query = new URLSearchParams();
+      if (params.venue_id) query.append('venue_id', params.venue_id);
+      if (params.category) query.append('category', params.category);
+      if (params.day_of_week !== undefined) query.append('day_of_week', String(params.day_of_week));
+      const qStr = query.toString();
+      return await request<{ success: boolean; data: SaunaCeremony[] }>(`/ceremonies${qStr ? `?${qStr}` : ''}`);
+    } catch {
+      return getStaticCeremonies();
+    }
   },
 
   // 8. Affiliates & Click Tracking

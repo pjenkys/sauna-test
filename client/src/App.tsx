@@ -16,28 +16,50 @@ import { SubmitSaunaPage } from './pages/SubmitSaunaPage';
 import { CeremoniesPage } from './pages/CeremoniesPage';
 
 export const App: React.FC = () => {
-  const [currentPath, setCurrentPath] = useState<string>(() => {
-    return window.location.pathname + window.location.search;
-  });
+  const getInitialPath = () => {
+    if (window.location.hash && window.location.hash.startsWith('#/')) {
+      return window.location.hash.slice(1);
+    }
+    let p = window.location.pathname.replace(/^\/sauna-test/, '') || '/';
+    return p + window.location.search;
+  };
+
+  const [currentPath, setCurrentPath] = useState<string>(getInitialPath);
 
   useEffect(() => {
-    const handlePopState = () => {
-      setCurrentPath(window.location.pathname + window.location.search);
+    const handleNavigation = () => {
+      if (window.location.hash && window.location.hash.startsWith('#/')) {
+        setCurrentPath(window.location.hash.slice(1));
+      } else {
+        let p = window.location.pathname.replace(/^\/sauna-test/, '') || '/';
+        setCurrentPath(p + window.location.search);
+      }
     };
-    window.addEventListener('popstate', handlePopState);
-    return () => window.removeEventListener('popstate', handlePopState);
+    window.addEventListener('popstate', handleNavigation);
+    window.addEventListener('hashchange', handleNavigation);
+    return () => {
+      window.removeEventListener('popstate', handleNavigation);
+      window.removeEventListener('hashchange', handleNavigation);
+    };
   }, []);
 
   const navigate = (to: string) => {
     if (to !== currentPath) {
-      window.history.pushState(null, '', to);
+      if (window.location.hostname.includes('github.io') || window.location.hash.startsWith('#/')) {
+        window.location.hash = '#' + to;
+      } else {
+        window.history.pushState(null, '', to);
+      }
       setCurrentPath(to);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   };
 
   // Route parser
-  const pathname = currentPath.split('?')[0];
+  let pathname = currentPath.split('?')[0];
+  if (pathname.startsWith('#/')) pathname = pathname.slice(1);
+  pathname = pathname.replace(/^\/sauna-test/, '') || '/';
+  if (!pathname.startsWith('/')) pathname = '/' + pathname;
 
   const renderCurrentPage = () => {
     // 1. Sauna Detail: /sauna/:slug
